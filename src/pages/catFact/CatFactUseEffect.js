@@ -8,24 +8,17 @@ export function CatFactUseEffect() {
     fetch("https://catfact.ninja/facts")
       .then((response) => response.json())
       .then((info) => {
-        console.log(info);
         setWeb(info.data);
+        console.log(info);
+          return (
+            <>
+              <h3>{web[0].fact}</h3>
+            </>
+          );
       });
   }, [count]);
 
-  if(info.data)
-  {
-
-    return (
-      <>
-        <h3>{web[Math.floor(Math.random() * web.length)].fact}</h3>
-      </>
-    )
-  }
-
-  const timer = () => {
-    setTimeout(() => {
-      setCount((count) => count++);
-    }, 4000);
-  };
+  setTimeout(() => {
+    setCount((count) => count + 1);
+  }, 4000);
 }
