@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+
 export function Creations()
 {
     return(
@@ -6,3 +8,13 @@ export function Creations()
         </>
     )
 }
+
+
+
+
+
+// const [facts, wrongCode] = useState();
+
+// useEffect( () => {}, [] )
+
+
