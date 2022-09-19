@@ -1,14 +1,14 @@
+import axios from "axios";
 import { useEffect, useState } from "react";
 
 export function CatFactUseEffect() {
   const [web, setWeb] = useState();
 
   useEffect(() => {
-    fetch("https://catfact.ninja/facts")
-      .then((response) => response.json())
-      .then((info) => {
-        setWeb(info.data);
-      });
+    axios.get("https://catfact.ninja/facts").then((info) => {
+      setWeb(info.data.data);
+      console.log(info);
+    });
   }, []);
 
   if (web) {

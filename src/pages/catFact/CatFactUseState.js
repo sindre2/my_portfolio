@@ -1,12 +1,13 @@
 import { useState } from "react";
+import axios from "axios";
 
 export function CatFactUseState() {
   const [old, setData] = useState("Hello");
 
   async function newFact() {
-    const response = await (await fetch("https://catfact.ninja/facts")).json();
+    const response = await axios("https://catfact.ninja/facts");
     console.log(response);
-    setData(response.data);
+    setData(response.data.data);
   }
   return (
     <>
