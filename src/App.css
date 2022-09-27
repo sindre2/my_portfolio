@@ -1,38 +1,182 @@
-.App {
+/* Body settings */
+
+body {
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+
+/* Universal padding */
+
+
+/* Homepage settings */
+
+.home_body, .aboutMe-body, .creationsPage-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.home_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  color: white;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* AboutMe-page settings */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.aboutMe-container
+{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 75%;
+  width: 40%;
+  padding: 2rem;
+}
+
+/* nav-bar and homepage color */
+
+.home_container,
+.aboutMe-container,
+nav {
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.home_container,
+.aboutMe-container,
+nav > h2,
+.links > a {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* nav-bar settings */
+
+nav {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
 }
 
-@keyframes App-logo-spin {
+nav > h2 {
+  display: flex;
+  justify-content: flex-start;
+  margin: 1rem;
+}
+
+.links > a {
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+
+/* Animation settings */
+
+.ani-container {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  overflow: visible;
+  z-index: -1;
+  bottom: 100%;
+}
+
+.line_1 {
+  animation: background-glide 9s linear infinite;
+  animation-delay: 3s;
+}
+
+.line_2 {
+  animation: background-glide 15s linear infinite;
+  animation-delay: 4s;
+}
+
+
+.line_3 {
+  animation: background-glide 12s linear infinite;
+  animation-delay: 6s;
+}
+
+.line_4 {
+  animation: background-glide 10s linear infinite;
+}
+
+.line_5 {
+  animation: background-glide 14s linear infinite;
+  animation-delay: 2s;
+}
+
+.line_6 {
+  animation: background-glide 9s linear infinite;
+  animation-delay: 7s;
+}
+
+.line_7 {
+  animation: background-glide 10s linear infinite;
+  animation-delay: 2s;
+}
+
+.line_8 {
+  animation: background-glide 11s linear infinite;
+}
+
+.line_9 {
+  animation: background-glide 10s linear infinite;
+  animation-delay: 7s;
+}
+
+.line_10 {
+  animation: background-glide 9s linear infinite;
+  animation-delay: 3s;
+}
+
+.line_11 {
+  animation: background-glide 14s linear infinite;
+}
+
+.line_12 {
+  animation: background-glide 10s linear infinite;
+  animation-delay: 5s;
+}
+
+.line_13 {
+  animation: background-glide 15s linear infinite;
+}
+
+.line_14 {
+  animation: background-glide 10s linear infinite;
+}
+
+.line_15 {
+  animation: background-glide 10s linear infinite;
+  animation-delay: 3s;
+}
+
+.ani {
+  height: 15px;
+  width: 4px;
+  border-radius: 8px;
+  background-color: rgb(255, 0, 0, 0.25);
+  margin: 0 3rem;
+  position: relative;
+}
+
+@keyframes background-glide {
   from {
-    transform: rotate(0deg);
+    top: 100vh
   }
   to {
-    transform: rotate(360deg);
+    top: 0px;
   }
 }
