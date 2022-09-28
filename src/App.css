@@ -6,47 +6,22 @@ body {
   padding: 0;
 }
 
-/* Universal padding */
+/* Universal settings */
 
-
-/* Homepage settings */
-
-.home_body, .aboutMe-body, .creationsPage-body {
+.home_body,
+.aboutMe-body,
+.contactMe-body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
-.home_container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  height: 500px;
-  width: 500px;
-  color: white;
-  text-align: center;
-}
-
-/* AboutMe-page settings */
-
-.aboutMe-container
-{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 75%;
-  width: 40%;
-  padding: 2rem;
-}
-
 /* nav-bar and homepage color */
 
 .home_container,
 .aboutMe-container,
+.contactMe-container,
 nav {
   background-color: rgb(0, 0, 0, 0.5);
 }
@@ -81,6 +56,118 @@ nav > h2 {
   margin: 1rem;
 }
 
+/* Homepage settings */
+
+.home_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  color: white;
+  text-align: center;
+}
+
+.home_buttons {
+  display: flex;
+  justify-content: center;
+}
+
+/* AboutMe-page settings */
+
+.aboutMe-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75%;
+  width: 40%;
+  padding: 2rem;
+}
+
+/* Creations-page settings for body */
+
+.creations-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Creations-page container settings */
+
+.creations-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 325px;
+  height: 400px;
+}
+
+.creations-container > h2 {
+  text-align: center;
+  height: 6%;
+}
+
+.creations-container > p {
+  height: 25%;
+  overflow: scroll;
+}
+
+.creations-container-image {
+  height: 40%;
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.creations-container-image > img {
+  height: 100%;
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.creations-container-buttons {
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .creations-container-buttons > a
+{
+
+} */
+
+/* ContactMe-Page */
+
+.contactMe-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  width: 400px;
+
+  color: white;
+  text-shadow: 1px 1px solid black;
+}
+
+.contactMe-container-text {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
 /* Animation settings */
 
 .ani-container {
@@ -101,7 +188,6 @@ nav > h2 {
   animation: background-glide 15s linear infinite;
   animation-delay: 4s;
 }
-
 
 .line_3 {
   animation: background-glide 12s linear infinite;
@@ -167,16 +253,28 @@ nav > h2 {
   height: 15px;
   width: 4px;
   border-radius: 8px;
-  background-color: rgb(255, 0, 0, 0.25);
+  background-color: rgb(255, 0, 0, 0.15);
   margin: 0 3rem;
   position: relative;
 }
 
 @keyframes background-glide {
   from {
-    top: 100vh
+    top: 100vh;
   }
   to {
     top: 0px;
+  }
+}
+
+/* Viewer settings for smaller screens */
+
+@media screen and (max-width: 1200px) {
+  .creations-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
   }
 }
