@@ -1,6 +1,7 @@
-import { creationsData } from "./CreationsData";
+import { creationsData } from "./Creations_Data";
 import { Creations } from "./Creations_Page";
 
+// Viderefører props inn i Creations siden slik at alle prosjekter blir skrevet ut.
 const projects = creationsData.map((project) => {
   return (
     <Creations

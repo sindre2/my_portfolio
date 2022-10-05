@@ -1,13 +1,15 @@
-import { ContactMe_Text } from "./ContactMe_Text";
+import { TEXT } from "../../textContent/content";
 
 export function Contact_Me() {
   return (
     <div className="contactMe-body">
       <div className="contactMe-container">
-        <h1>{ContactMe_Text.title}</h1>
+        <h1>{TEXT.CONTACT_ME_TEXT.TITLE}</h1>
         <div className="contactMe-container-text">
-          <p>Email: {ContactMe_Text.email}</p>
-          <p>{ContactMe_Text.cv}</p>
+          <p>
+            Email: <span>{TEXT.CONTACT_ME_TEXT.EMAIL}</span>
+          </p>
+          <p>{TEXT.CONTACT_ME_TEXT.CV}</p>
         </div>
       </div>
     </div>
