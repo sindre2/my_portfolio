@@ -12,11 +12,11 @@ export function Home() {
       <div className="home-container">
         <h1>{TEXT.HOME_TEXT.TITLE}</h1>
         <div className="home-buttons">
-          <HomeButton href="/about-me">
+          <HomeButton href="/my_portfolio#/about-me">
             {TEXT.HOME_TEXT.BUTTON_ABOUT_ME}
           </HomeButton>
 
-          <HomeButton href="/creations">
+          <HomeButton href="/my_portfolio#/creations">
             {TEXT.HOME_TEXT.BUTTON_CREATIONS}
           </HomeButton>
         </div>
