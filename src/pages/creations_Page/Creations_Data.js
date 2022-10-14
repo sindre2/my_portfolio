@@ -8,7 +8,7 @@ export const creationsData = [
     alt: "Skjermbildet av nettsiden Skeletor Soundboard",
     github: "https://github.com/sindre2/Skeletor",
     github_Pages: "https://sindre2.github.io/Skeletor/",
-    description: "Morsomme lyder ifra tegnefilmfiguren Skeletor",
+    description: "Morsomme lyder ifra tegnefilmfiguren Skeletor.",
   },
   {
     key: 1,
@@ -17,7 +17,7 @@ export const creationsData = [
     alt: "Skjermbildet av nettsiden Pokedex",
     github: "https://github.com/sindre2/paukedax",
     github_Pages: "https://sindre2.github.io/paukedax/",
-    description: "Et bibliotek for Pokemon som henter data ifra en API",
+    description: "Et bibliotek for Pokemon som henter data ifra en API.",
   },
   {
     key: 2,
@@ -26,7 +26,7 @@ export const creationsData = [
     alt: "Skjermbildet av nettsiden Machoman Todo-List",
     github: "https://github.com/sindre2/toDoList",
     github_Pages: "https://sindre2.github.io/toDoList/",
-    description: 'En trenings gjøreliste som er litt vel "macho"',
+    description: 'En trenings gjøreliste som er litt vel "macho".',
   },
   {
     key: 3,
@@ -35,7 +35,7 @@ export const creationsData = [
     alt: "Skjermbildet av en nettside laget i Figma",
     github_Pages:
       "https://www.figma.com/file/Y2cm16nUzv5SivWihJGs4q/Nettside-i-figma?node-id=0%3A1",
-    description: "Enkel nettside i Figma",
+    description: "Enkel nettside i Figma.",
   },
   {
     key: 4,
@@ -45,7 +45,7 @@ export const creationsData = [
     github: "https://github.com/sindre2/password_Generator",
     github_Pages: "https://sindre2.github.io/password_Generator/",
     description:
-      "En passordgenerator som lager et sikkert passord for personlig bruk",
+      "En passordgenerator som lager et sikkert passord for personlig bruk.",
   },
   {
     key: 5,
