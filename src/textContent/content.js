@@ -24,7 +24,7 @@ export const TEXT = {
   },
 
   CONTACT_ME_TEXT: {
-    TITLE: "Kontakt informasjon",
+    TITLE: "Kontaktinformasjon",
     EMAIL: "sindre2.kodehode@gmail.com",
     CV: "CV blir sent på etterspørsel.",
   },

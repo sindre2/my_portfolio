@@ -2,7 +2,7 @@ import { HomeButton } from "../components/HomeButton";
 import { Logo } from "./Home_Render_Logo";
 import { TEXT } from "../../textContent/content";
 import { GitHubLogo } from "../components/GitHubLogo";
-import { Link, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import { About_Me } from "../aboutMe_Page/AboutMe_Page";
 import { CreationRender } from "../creations_Page/Creations_Render";
 
