@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.63e9e6d7.css",
-    "main.js": "/my_portfolio/static/js/main.affdc3df.js",
+    "main.css": "/my_portfolio/static/css/main.f1475c47.css",
+    "main.js": "/my_portfolio/static/js/main.8da4c9d4.js",
     "static/js/787.128fc6e9.chunk.js": "/my_portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/todolist.png": "/my_portfolio/static/media/todolist.dd6f7c23a91aee8576d1.png",
     "static/media/pokedex.png": "/my_portfolio/static/media/pokedex.35b62d4a6b3f113b2146.png",
+    "static/media/selvPortrett.png": "/my_portfolio/static/media/selvPortrett.08f976c2c696f9c15027.png",
     "static/media/Figma_SimpleWebPage.png": "/my_portfolio/static/media/Figma_SimpleWebPage.ec917b2960e3b952f82a.png",
     "static/media/bg_bggenerator_com.png": "/my_portfolio/static/media/bg_bggenerator_com.92ca7167841e08cf1bd1.png",
     "static/media/password_Generator.png": "/my_portfolio/static/media/password_Generator.40ad8f1de3fc9ad8db91.png",
     "static/media/skeletor.jpg": "/my_portfolio/static/media/skeletor.44cc2ba3668761ff724c.jpg",
     "static/media/color_Generator.png": "/my_portfolio/static/media/color_Generator.8b27f99f7059da01c9a0.png",
     "index.html": "/my_portfolio/index.html",
-    "main.63e9e6d7.css.map": "/my_portfolio/static/css/main.63e9e6d7.css.map",
-    "main.affdc3df.js.map": "/my_portfolio/static/js/main.affdc3df.js.map",
+    "main.f1475c47.css.map": "/my_portfolio/static/css/main.f1475c47.css.map",
+    "main.8da4c9d4.js.map": "/my_portfolio/static/js/main.8da4c9d4.js.map",
     "787.128fc6e9.chunk.js.map": "/my_portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.63e9e6d7.css",
-    "static/js/main.affdc3df.js"
+    "static/css/main.f1475c47.css",
+    "static/js/main.8da4c9d4.js"
   ]
 }
