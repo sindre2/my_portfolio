@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Portofølje
+
+Portofølje laget av Sindre V. Storesund<br>
 
 <a href="https://sindre2.github.io/my_portfolio/">View demo</a><br>
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
