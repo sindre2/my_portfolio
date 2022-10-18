@@ -5,11 +5,13 @@ import { GitHubLogo } from "../components/GitHubLogo";
 import { Route, Routes } from "react-router-dom";
 import { About_Me } from "../aboutMe_Page/AboutMe_Page";
 import { CreationRender } from "../creations_Page/Creations_Render";
+import selvPortrett from "../../images/selvPortrett.png"
 
 export function Home() {
   return (
     <div className="home-body">
       <div className="home-container">
+      <img src={selvPortrett} className="homePage_selfPortrait" alt="Bildet av Sindre V. Storesund"/>
         <h1>{TEXT.HOME_TEXT.TITLE}</h1>
         <div className="home-buttons">
           <HomeButton href="/my_portfolio#/about-me">
