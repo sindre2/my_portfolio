@@ -3,7 +3,7 @@ export const TEXT = {
     HOME: "Hovedside",
     ABOUT_ME: "Om meg",
     CREATIONS: "Prosjekter",
-    CONTACT_ME: "Kontakt info",
+    CONTACT_ME: "Kontaktinfo",
   },
 
   HOME_TEXT: {
