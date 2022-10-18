@@ -1,8 +1,8 @@
-# Portofølje
+# Portefølje
 
-Portofølje laget av Sindre V. Storesund<br>
+Portefølje laget av Sindre V. Storesund<br>
 
-<a href="https://sindre2.github.io/my_portfolio/">View demo</a><br>
+<a href="https://sindre2.github.io/my_portfolio/">Se porteføljen</a><br>
 
 ## Getting Started with Create React App
 
