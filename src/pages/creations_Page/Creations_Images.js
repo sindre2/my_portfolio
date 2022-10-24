@@ -4,6 +4,7 @@ import todo from "../../images/todolist.png";
 import figma1 from "../../images/Figma_SimpleWebPage.png"
 import passwordG from "../../images/password_Generator.png"
 import colorG from "../../images/color_Generator.png"
+import space from "../../images/preview.png"
 
 export const imagesCreations = { 
     skelly: skeletor,
@@ -11,5 +12,6 @@ export const imagesCreations = {
     do: todo,
     figmaOne: figma1,
     password: passwordG,
-    color: colorG
+    color: colorG,
+    planetarium: space,
 };

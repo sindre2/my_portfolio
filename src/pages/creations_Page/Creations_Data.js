@@ -30,12 +30,13 @@ export const creationsData = [
   },
   {
     key: 3,
-    title: "Figmanettside",
-    image: imagesCreations.figmaOne,
-    alt: "Skjermbildet av en nettside laget i Figma",
-    github_Pages:
-      "https://www.figma.com/file/Y2cm16nUzv5SivWihJGs4q/Nettside-i-figma?node-id=0%3A1",
-    description: "Enkel nettside i Figma.",
+      title: "Planetarium",
+      image: imagesCreations.planetarium,
+      alt: "Skjermbildet av nettsiden Planetarium",
+      github: "https://github.com/sindre2/Planetarium",
+      github_Pages: "https://aleksander-kodehode.github.io/planetarium/#/home",
+      description:
+        "Gruppeprosjekt for oppgave utgitt av kodehodet. Et planetarium som viser generell informasjon om Jordens solsystem.",
   },
   {
     key: 4,
@@ -56,5 +57,14 @@ export const creationsData = [
     github_Pages: "https://sindre2.github.io/Colorscheme_Generator/",
     description:
       "En fargegenerator som lager en palett av farger etter utvalgt ønske.",
+  },
+  {
+    key: 6,
+    title: "Figmanettside",
+    image: imagesCreations.figmaOne,
+    alt: "Skjermbildet av en nettside laget i Figma",
+    github_Pages:
+      "https://www.figma.com/file/Y2cm16nUzv5SivWihJGs4q/Nettside-i-figma?node-id=0%3A1",
+    description: "Enkel nettside i Figma.",
   },
 ];
