@@ -12,12 +12,13 @@ export const creationsData = [
   },
   {
     key: 1,
-    title: "Pokedex",
-    image: imagesCreations.pokemon,
-    alt: "Skjermbildet av nettsiden Pokedex",
-    github: "https://github.com/sindre2/paukedax",
-    github_Pages: "https://sindre2.github.io/paukedax/",
-    description: "Et bibliotek for Pokemon som henter data ifra en API.",
+      title: "Planetarium",
+      image: imagesCreations.planetarium,
+      alt: "Skjermbildet av nettsiden Planetarium",
+      github: "https://github.com/sindre2/Planetarium",
+      github_Pages: "https://aleksander-kodehode.github.io/planetarium/#/home",
+      description:
+        "Gruppeprosjekt for oppgave utgitt av kodehodet. Et planetarium som viser generell informasjon om Jordens solsystem.",
   },
   {
     key: 2,
@@ -30,13 +31,12 @@ export const creationsData = [
   },
   {
     key: 3,
-      title: "Planetarium",
-      image: imagesCreations.planetarium,
-      alt: "Skjermbildet av nettsiden Planetarium",
-      github: "https://github.com/sindre2/Planetarium",
-      github_Pages: "https://aleksander-kodehode.github.io/planetarium/#/home",
-      description:
-        "Gruppeprosjekt for oppgave utgitt av kodehodet. Et planetarium som viser generell informasjon om Jordens solsystem.",
+    title: "Pokedex",
+    image: imagesCreations.pokemon,
+    alt: "Skjermbildet av nettsiden Pokedex",
+    github: "https://github.com/sindre2/paukedax",
+    github_Pages: "https://sindre2.github.io/paukedax/",
+    description: "Et bibliotek for Pokemon som henter data ifra en API.",
   },
   {
     key: 4,
