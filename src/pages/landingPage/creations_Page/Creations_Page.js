@@ -1,5 +1,5 @@
-import { HomeButton } from "../components/HomeButton";
-import { TEXT } from "../../textContent/content";
+import { HomeButton } from "../../../components/styledComponents/HomeButton";
+import { TEXT } from "../../../textContent/content";
 
 export function Creations(props) {
   

@@ -1,4 +1,4 @@
-import githubLogo from "../../images/GitHub-Mark-64px.png";
+import githubLogo from "../images/GitHub-Mark-64px.png";
 
 export const GitHubLogo = (props) => {
   return (

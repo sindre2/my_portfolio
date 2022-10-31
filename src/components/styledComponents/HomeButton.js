@@ -15,7 +15,7 @@ export const HomeButton = styled.a`
 
   margin: 0.5rem 1rem;
   padding: 0.25rem 1rem;
-  width: 7rem;
+  max-width: 17rem;
   font-size: 1.25rem;
   &:hover {
     background-color: blueviolet;
