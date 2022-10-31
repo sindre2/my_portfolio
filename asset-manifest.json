@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.f1475c47.css",
-    "main.js": "/my_portfolio/static/js/main.9827fa78.js",
+    "main.css": "/my_portfolio/static/css/main.98617e05.css",
+    "main.js": "/my_portfolio/static/js/main.41810b79.js",
     "static/js/787.128fc6e9.chunk.js": "/my_portfolio/static/js/787.128fc6e9.chunk.js",
-    "static/media/preview.png": "/my_portfolio/static/media/preview.a6428c496d1d7e6520ab.png",
-    "static/media/todolist.png": "/my_portfolio/static/media/todolist.dd6f7c23a91aee8576d1.png",
-    "static/media/pokedex.png": "/my_portfolio/static/media/pokedex.35b62d4a6b3f113b2146.png",
     "static/media/selvPortrett.png": "/my_portfolio/static/media/selvPortrett.08f976c2c696f9c15027.png",
-    "static/media/Figma_SimpleWebPage.png": "/my_portfolio/static/media/Figma_SimpleWebPage.ec917b2960e3b952f82a.png",
     "static/media/bg_bggenerator_com.png": "/my_portfolio/static/media/bg_bggenerator_com.92ca7167841e08cf1bd1.png",
+    "static/media/todolist.png": "/my_portfolio/static/media/todolist.af0133be42a6912a021e.png",
+    "static/media/pokedex.png": "/my_portfolio/static/media/pokedex.92aecaf643678d02fd09.png",
+    "static/media/skeletor.png": "/my_portfolio/static/media/skeletor.93020470c25bf607c571.png",
     "static/media/password_Generator.png": "/my_portfolio/static/media/password_Generator.40ad8f1de3fc9ad8db91.png",
-    "static/media/skeletor.jpg": "/my_portfolio/static/media/skeletor.44cc2ba3668761ff724c.jpg",
-    "static/media/color_Generator.png": "/my_portfolio/static/media/color_Generator.8b27f99f7059da01c9a0.png",
+    "static/media/preview.png": "/my_portfolio/static/media/preview.fe91ac01d4ef8a923232.png",
+    "static/media/Figma_SimpleWebPage.png": "/my_portfolio/static/media/Figma_SimpleWebPage.a0b6633245aeacb980b9.png",
     "index.html": "/my_portfolio/index.html",
-    "main.f1475c47.css.map": "/my_portfolio/static/css/main.f1475c47.css.map",
-    "main.9827fa78.js.map": "/my_portfolio/static/js/main.9827fa78.js.map",
+    "main.98617e05.css.map": "/my_portfolio/static/css/main.98617e05.css.map",
+    "main.41810b79.js.map": "/my_portfolio/static/js/main.41810b79.js.map",
     "787.128fc6e9.chunk.js.map": "/my_portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1475c47.css",
-    "static/js/main.9827fa78.js"
+    "static/css/main.98617e05.css",
+    "static/js/main.41810b79.js"
   ]
 }
