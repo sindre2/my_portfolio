@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Logo_Styles = styled.div`
     .logo-container{
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem 1.5rem;
     justify-content: center;
     align-items: center;

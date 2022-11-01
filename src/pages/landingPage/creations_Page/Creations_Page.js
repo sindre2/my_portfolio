@@ -2,8 +2,6 @@ import { HomeButton } from "../../../components/styledComponents/HomeButton";
 import { TEXT } from "../../../textContent/content";
 
 export function Creations(props) {
-  
-
   //if else - for å legge merke til om noen prosjekter ikke har "properties" lenke til github. Eks: Figma prosjekt. Hvis det ikke finnes blir ikke en github-lenke knapp lagt til.
 
   if (props.github) {
@@ -14,16 +12,16 @@ export function Creations(props) {
           <img src={props.image} alt={props.alt} />
         </div>
         <div className="creations-container-buttons">
-          <HomeButton href={props.github} target="_blank" rel="noreferrer">
-            {TEXT.CREATIONS.BUTTON_GITHUB}
-          </HomeButton>
-          <HomeButton
-            href={props.github_Pages}
-            target="_blank"
-            rel="noreferrer"
-          >
-            {TEXT.CREATIONS.BUTTON_SITE}
-          </HomeButton>
+          <div className="creation-button">
+            <HomeButton href={props.github} target="_blank" rel="noreferrer">
+              {TEXT.CREATIONS.BUTTON_GITHUB}
+            </HomeButton>
+          </div>
+          <div className="creation-button">
+            <HomeButton href={props.github_Pages} target="_blank" rel="noreferrer">
+              {TEXT.CREATIONS.BUTTON_SITE}
+            </HomeButton>
+          </div>
         </div>
         <p>{props.description}</p>
       </div>

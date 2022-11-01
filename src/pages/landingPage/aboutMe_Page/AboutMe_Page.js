@@ -1,8 +1,8 @@
 import { TEXT } from "../../../textContent/content";
-import { GitHubLogo } from "../../../components/GitHubLogo";
 import { Logo } from "../../../components/LogoSkills/Logo_Render";
 import selvPortrett from "../../../images/selvPortrett.png";
 import { AboutMe_Styles } from "./AboutMe_Styles";
+import { Social_Icons } from "../../../components/Social_Icons/Social_Icons";
 
 export function About_Me() {
   const aboutMe = TEXT.ABOUT_ME_TEXT;
@@ -14,7 +14,7 @@ export function About_Me() {
           <h1>{aboutMe.TITLE}</h1>
           <p>{aboutMe.PITCH}</p>
           <div className="aboutMe-github-logo">
-            <GitHubLogo href={TEXT.INFO.GITHUB} />
+            <Social_Icons />
           </div>
         </div>
         <img

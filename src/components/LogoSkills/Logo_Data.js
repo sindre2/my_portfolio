@@ -1,29 +1,41 @@
-import { logo_Images } from "./Logo_Images";
+import { logo_Images } from "./Logo_Images"
+
+const short = logo_Images;
 
 export const logo_Data = [
   {
     key: 0,
     alt: "html-5 logo",
-    image: logo_Images.html,
+    image: short.html,
   },
   {
     key: 1,
     alt: "css-3 logo",
-    image: logo_Images.css,
+    image: short.css,
   },
   {
     key: 2,
     alt: "javascript-logo",
-    image: logo_Images.js,
+    image: short.js,
   },
   {
     key: 3,
     alt: "react-logo",
-    image: logo_Images.react,
+    image: short.react,
   },
   {
     key: 4,
     alt: "figma-logo",
-    image: logo_Images.figma,
-  }
+    image: short.figma,
+  },
+  {
+    key: 5,
+    alt: "sql-logo",
+    image: short.sql,
+  },
+  {
+    key: 6,
+    alt: "git-logo",
+    image: short.git,
+  },
 ];

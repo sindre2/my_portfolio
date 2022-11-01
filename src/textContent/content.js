@@ -24,7 +24,7 @@ export const TEXT = {
   ABOUT_ME_TEXT: {
     TITLE: "Om Meg",
     PITCH: `
-        30 år gammel mann som går på Kodehode for å lære hemmelighetene bak alle disse kattepus videoene. Dvs den hellige digitale treenigheten: HTML, CSS og Javascript. Jeg har også tuklet rundt med React og kan lage nettsider i Figma. 
+        30 år gammel mann som går på Kodehode for å lære hemmelighetene bak alle disse kattepus videoene. Dvs den hellige digitale treenigheten: HTML, CSS og Javascript. Jeg har også tuklet rundt nok med React, SQL, Git og kan lage nettsider i Figma.
         Er en kløpper på RTS, slåssespill og kan svette i spillstolen med selv de beste. Det er alltid en fryd når en spiller med meg ettersom du før høre det om du vinner eller taper.
         Ellers har jeg drevet med kampsport som Tae Kwon Do og Kickboxing og har derfor blitt veldig god til blokkere med fjeset.
         `,
@@ -44,5 +44,8 @@ export const TEXT = {
   INFO: {
     EMAIL: "sindre2.kodehode@gmail.com",
     GITHUB: "https://github.com/sindre2",
+    GITHUB_LOGO_ALT: "Github logo",
+    LINKEDIN: "https://www.linkedin.com/in/sindre-vatne-storesund-41a077255/",
+    LINKEDIN_LOGO_ALT: "Linkedin logo",
   },
 };

@@ -44,6 +44,13 @@ export const AboutMe_Styles = styled.div`
     width: 15%;
   }
 
+  .aboutMe-github-logo
+  {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+  }
+
   .aboutMe-github-logo > a > img {
     width: 40px;
     border-radius: 50%;

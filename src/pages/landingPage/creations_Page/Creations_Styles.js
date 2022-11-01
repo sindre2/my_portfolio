@@ -59,7 +59,7 @@ export const Creations_Styles = styled.div`
 
   .creations-container-image {
     height: 40%;
-    width: 90%;
+    width: 95%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,6 +82,26 @@ export const Creations_Styles = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 95%;
+  }
+  
+  .creation-button
+  {
+    display: flex;
+    align-items: center;
+    width: 50%;
+  }
+
+  .creation-button:first-child
+  {
+    justify-content: flex-end;
+    padding-right: 0.4rem;
+  }
+
+  .creation-button:last-child
+  {
+    justify-content: flex-start;
+    padding-right: 0.4rem;
   }
 
   /* Viewer settings for Creations page */
