@@ -16,7 +16,7 @@ const CustomRoutes = () => {
         <Route path={"/" + navigation.HOME} element={<Home_Page />} />
         <Route path={"/" + navigation.ABOUT_ME} element={<About_Me />} />
         <Route path={"/" + navigation.CREATIONS} element={<CreationRender />} />
-        <Route path={"/" + navigation.CONTACT_ME} element={<Contact_Me />} />
+        <Route path={"/" + navigation.CONTACT_ME} element={<Contact_Me />} /> 
         <Route path="*" element={<NonRoute />} />
       </Routes>
     </Wrapper>

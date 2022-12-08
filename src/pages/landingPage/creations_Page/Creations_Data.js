@@ -2,6 +2,18 @@ import { creationsImages } from "./Creations_Images";
 
 //To add more projects simply make another entry in the "creationsData" object. The page will automaticly render the project with a ".map" method in "Creations_Render.js". Remember to add a "key" otherwise React will give an error message.
 
+/* Template:
+  {
+    key: "Assign a unique number here(can be variable).",
+    title: "Just a simple title for the project.",
+    image: "Url of the image, usually the screenshot.",
+    alt: "Alternative description of the image for the sight impaired or the image fails to load.",
+    github: "A link to the code on github or coding storage of your choice. Assigned to button number one.",
+    github_Pages: "A link to a live hosting of the site. Assigned to button number two.",
+    description: "A simple description of the website."
+  }
+*/
+
 export const creationsData = [
   {
     key: 0,
@@ -14,13 +26,13 @@ export const creationsData = [
   },
   {
     key: 1,
-      title: "Planetarium",
-      image: creationsImages.planetarium,
-      alt: "Skjermbildet av nettsiden Planetarium",
-      github: "https://github.com/sindre2/Planetarium",
-      github_Pages: "https://aleksander-kodehode.github.io/planetarium/#/home",
-      description:
-        "Gruppeprosjekt for oppgave utgitt av kodehodet. Et planetarium som viser generell informasjon om Jordens solsystem.",
+    title: "Planetarium",
+    image: creationsImages.planetarium,
+    alt: "Skjermbildet av nettsiden Planetarium",
+    github: "https://github.com/sindre2/Planetarium",
+    github_Pages: "https://aleksander-kodehode.github.io/planetarium/#/home",
+    description:
+      "Gruppeprosjekt for oppgave utgitt av kodehodet. Et planetarium som viser generell informasjon om Jordens solsystem.",
   },
   {
     key: 2,
@@ -41,7 +53,16 @@ export const creationsData = [
     description: "Et bibliotek for Pokemon som henter data ifra en API.",
   },
   {
-    key: 4,
+    key:4,
+    title: "Questionare",
+    image: creationsImages.questionare,
+    alt: "Skjermbildet av nettsiden Questionare",
+    github: "https://github.com/sindre2/questionare",
+    github_Pages: "https://sindre2.github.io/questionare/",
+    description: "Spørrespill hvor en kan velge mellom forskjellige tema hentet fra en API."
+  },
+  {
+    key: 5,
     title: "Passordgenerator",
     image: creationsImages.password,
     alt: "Skjermbildet av nettsiden Passordgenerator",
@@ -51,7 +72,7 @@ export const creationsData = [
       "En passordgenerator som lager et sikkert passord for personlig bruk.",
   },
   {
-    key: 5,
+    key: 6,
     title: "Fargegenerator",
     image: creationsImages.color,
     alt: "Skjermbildet av nettsiden Fargegenerator",
@@ -61,7 +82,7 @@ export const creationsData = [
       "En fargegenerator som lager en palett av farger etter utvalgt ønske.",
   },
   {
-    key: 6,
+    key: 7,
     title: "Figmanettside",
     image: creationsImages.figmaOne,
     alt: "Skjermbildet av en nettside laget i Figma",

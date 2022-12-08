@@ -18,7 +18,7 @@ export const Home_Page = () => {
             className="homePage_selfPortrait"
             alt="Bildet av Sindre V. Storesund"
           />
-          <h1>{TEXT.HOME_TEXT.TITLE}</h1>
+          <h1>{TEXT.HOME_TEXT.TITLE}</h1> 
           <div className="home-buttons-container">
             <div className="home-buttons">
               <HomeButton as={Link} to={`/${navigation.ABOUT_ME}`}>

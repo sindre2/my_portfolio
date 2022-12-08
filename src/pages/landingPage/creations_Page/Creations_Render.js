@@ -12,7 +12,7 @@ const projects = creationsData.map((project) => {
         alt={project.alt}
         github={project.github}
         github_Pages={project.github_Pages}
-        description={project.description}
+        description={project.description} 
       />
   );
 });

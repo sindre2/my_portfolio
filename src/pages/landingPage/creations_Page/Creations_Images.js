@@ -5,6 +5,7 @@ import figma1 from "../../../images/Figma_SimpleWebPage.png"
 import passwordG from "../../../images/password_Generator.png"
 import colorG from "../../../images/color_Generator.png"
 import space from "../../../images/preview.png"
+import question from "../../../images/questionare.png"
 
 export const creationsImages = { 
     skelly: skeletor,
@@ -14,4 +15,5 @@ export const creationsImages = {
     password: passwordG,
     color: colorG,
     planetarium: space,
+    questionare: question,
 };
