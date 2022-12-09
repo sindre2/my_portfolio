@@ -1,13 +1,21 @@
-import { TEXT } from "../../textContent/content";
+import { NORTEXT } from "../../textContent/content";
 import { NavItems, Nav, NavListMain } from "./navbarStyles";
-
+import { useTranslation, Trans } from "react-i18next";
+import { lngs } from "../../textContent/i18n"
 
 export const Navbar = () => {
-  const navbar = TEXT.NAVBAR_TEXT;
-  const navigation = TEXT.NAVBAR_TEXT_NAVIGATION;
+  const navbar = NORTEXT.NAVBAR_TEXT;
+  const navigation = NORTEXT.NAVBAR_TEXT_NAVIGATION;
+  const { t, i18n } = useTranslation();
+
   return (
       <Nav>
         <h2>【S】</h2>
+        <div className="lngButton">
+          {Object.keys(lngs).map((lng) => (
+            <button type="submit" key={lng} onClick={() => i18n.changeLanguage(lng)} disabled={i18n.resolvedLanguage === lng}>{lngs[lng].nativeName}</button>
+          ))}
+        </div>
         <NavListMain>
           <li>
             <NavItems to={`/${navigation.HOME}`}>{navbar.HOME}</NavItems>

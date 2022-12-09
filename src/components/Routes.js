@@ -4,11 +4,11 @@ import { About_Me } from "../pages/landingPage/aboutMe_Page/AboutMe_Page";
 import { Contact_Me } from "../pages/landingPage/contactMe_Page/ContactMe_Page";
 import { CreationRender } from "../pages/landingPage/creations_Page/Creations_Render";
 import { Home_Page } from "../pages/landingPage/home_Page/Home_Page";
-import { TEXT } from "../textContent/content";
+import { NORTEXT } from "../textContent/content";
 import { Wrapper } from "./styledComponents/Wrapper";
 
 const CustomRoutes = () => {
-  const navigation = TEXT.NAVBAR_TEXT_NAVIGATION;
+  const navigation = NORTEXT.NAVBAR_TEXT_NAVIGATION;
   return (
     <Wrapper className="appWrapper">
       <Routes>

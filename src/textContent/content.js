@@ -1,4 +1,4 @@
-export const TEXT = {
+export const NORTEXT = {
   NAVBAR_TEXT: {
     HOME: "Hovedside",
     ABOUT_ME: "Om meg",
@@ -49,3 +49,56 @@ export const TEXT = {
     LINKEDIN_LOGO_ALT: "Linkedin logo",
   },
 };
+
+export const ENGTEXT = {
+  NAVBAR_TEXT: {
+    HOME: "Main page",
+    ABOUT_ME: "About me",
+    CREATIONS: "Creations",
+    CONTACT_ME: "Contact Info",
+  },
+
+  NAVBAR_TEXT_NAVIGATION: {
+    HOME: "Home",
+    ABOUT_ME: "about-me",
+    CREATIONS: "creations",
+    CONTACT_ME: "contact-info",
+  },
+
+  HOME_TEXT: {
+    TITLE: "Sindre V. Storesund Front End Developer",
+    DESCRIPTION:
+      "Sindre, aspiring web developer and code enthusiast. Fundamental knowledge about frontend with a lot of interest for backend",
+    BUTTON_ABOUT_ME: "About me",
+    BUTTON_CREATIONS: "Projects",
+  },
+
+  ABOUT_ME_TEXT: {
+    TITLE: "About me",
+    PITCH: `
+        30 year old man currently attending a course to learn the secrets behind all these cat videos. That means the holy digital trinity: HTML, CSS and Javascript. I've also fumbled around with React, SQL, Git and can make web pages in Figma.
+        I am well versed in RTS, fighting games and can sweat in the gaming chair with the best of them. It's always a joy to play with me considering you will hear it wether you win or lose. Otherwise I've done combat sports such as Tae Kwon Do and Kickboxing and therefore have become quite proficient to block with my face.
+        `,
+    IMAGE: "Picture of Sindre V. Storesund"
+  },
+
+  CONTACT_ME_TEXT: {
+    TITLE: "Contact info",
+    EMAIL: "sindre2.kodehode@gmail.com",
+    CV: "Resumè will be sent on request",
+  },
+
+  CREATIONS: {
+    BUTTON_GITHUB: "Github",
+    BUTTON_SITE: "Try page",
+  },
+  
+  INFO: {
+    EMAIL: "sindre2.kodehode@gmail.com",
+    GITHUB: "https://github.com/sindre2",
+    GITHUB_LOGO_ALT: "Github logo",
+    LINKEDIN: "https://www.linkedin.com/in/sindre-vatne-storesund-41a077255/",
+    LINKEDIN_LOGO_ALT: "Linkedin logo",
+  },
+};
+

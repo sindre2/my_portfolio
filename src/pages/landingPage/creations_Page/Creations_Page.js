@@ -1,8 +1,10 @@
 import { HomeButton } from "../../../components/styledComponents/HomeButton";
-import { TEXT } from "../../../textContent/content";
+import { useTranslation, Trans } from "react-i18next";
 
 export function Creations(props) {
   //if else - for å legge merke til om noen prosjekter ikke har "properties" lenke til github. Eks: Figma prosjekt. Hvis det ikke finnes blir ikke en github-lenke knapp lagt til.
+  const creations = "CREATIONS";
+  const { t } = useTranslation();
 
   if (props.github) {
     return (
@@ -14,12 +16,16 @@ export function Creations(props) {
         <div className="creations-container-buttons">
           <div className="creation-button">
             <HomeButton href={props.github} target="_blank" rel="noreferrer">
-              {TEXT.CREATIONS.BUTTON_GITHUB}
+              <Trans i18nKey={creations + ".BUTTON_GITHUB"}>
+                {/* Text will be rendered here, check "i18n.js" in "content". */}
+              </Trans>
             </HomeButton>
           </div>
           <div className="creation-button">
             <HomeButton href={props.github_Pages} target="_blank" rel="noreferrer">
-              {TEXT.CREATIONS.BUTTON_SITE}
+              <Trans i18nKey={creations + ".BUTTON_SITE"}>
+                {/* Text will be rendered here, check "i18n.js" in "content". */}
+              </Trans>
             </HomeButton>
           </div>
         </div>
