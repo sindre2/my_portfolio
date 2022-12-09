@@ -3,7 +3,6 @@ import { NORTEXT } from "../../../textContent/content";
 import { ContactMe_Page_Body } from "./ContactMe_Page_Styles";
 
 export function Contact_Me() {
-
   const { t } = useTranslation();
   const contact = "CONTACT_ME_TEXT.";
 
@@ -14,7 +13,7 @@ export function Contact_Me() {
           <h1>
             <Trans i18nKey={contact + "TITLE"}></Trans>
             {/* {NORTEXT.CONTACT_ME_TEXT.TITLE} */}
-            </h1>
+          </h1>
           <div className="contactMe-container-text">
             <p>
               Email: <span>{NORTEXT.CONTACT_ME_TEXT.EMAIL}</span>

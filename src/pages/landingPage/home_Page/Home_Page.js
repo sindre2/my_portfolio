@@ -8,7 +8,6 @@ import { Social_Icons } from "../../../components/Social_Icons/Social_Icons";
 import { useTranslation, Trans } from "react-i18next";
 
 export const Home_Page = () => {
-  
   const navigation = "NAVBAR_TEXT_NAVIGATION";
   const home = "HOME_TEXT.";
   const { t } = useTranslation();
@@ -23,7 +22,7 @@ export const Home_Page = () => {
             className="homePage_selfPortrait"
             alt="Bildet av Sindre V. Storesund"
           />
-          <h1>{NORTEXT.HOME_TEXT.TITLE}</h1> 
+          <h1>{NORTEXT.HOME_TEXT.TITLE}</h1>
           <div className="home-buttons-container">
             <div className="home-buttons">
               <HomeButton as={Link} to={`/${navigation.ABOUT_ME}`}>

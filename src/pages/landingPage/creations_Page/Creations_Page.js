@@ -22,7 +22,11 @@ export function Creations(props) {
             </HomeButton>
           </div>
           <div className="creation-button">
-            <HomeButton href={props.github_Pages} target="_blank" rel="noreferrer">
+            <HomeButton
+              href={props.github_Pages}
+              target="_blank"
+              rel="noreferrer"
+            >
               <Trans i18nKey={creations + ".BUTTON_SITE"}>
                 {/* Text will be rendered here, check "i18n.js" in "content". */}
               </Trans>

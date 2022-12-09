@@ -17,7 +17,7 @@ export function About_Me() {
         <div className="aboutMe-container">
           <h1>
             <Trans i18nKey={aboutMe + ".TITLE"}></Trans>
-        </h1>
+          </h1>
           <p>
             <Trans i18nKey={aboutMe + ".PITCH"}></Trans>
           </p>

@@ -28,7 +28,7 @@ export const NORTEXT = {
         Er en kløpper på RTS, slåssespill og kan svette i spillstolen med selv de beste. Det er alltid en fryd når en spiller med meg ettersom du før høre det om du vinner eller taper.
         Ellers har jeg drevet med kampsport som Tae Kwon Do og Kickboxing og har derfor blitt veldig god til blokkere med fjeset.
         `,
-    IMAGE: "Bildet av Sindre V. Storesund"
+    IMAGE: "Bildet av Sindre V. Storesund",
   },
 
   CONTACT_ME_TEXT: {
@@ -79,7 +79,7 @@ export const ENGTEXT = {
         30 year old man currently attending a course to learn the secrets behind all these cat videos. That means the holy digital trinity: HTML, CSS and Javascript. I've also fumbled around with React, SQL, Git and can make web pages in Figma.
         I am well versed in RTS, fighting games and can sweat in the gaming chair with the best of them. It's always a joy to play with me considering you will hear it wether you win or lose. Otherwise I've done combat sports such as Tae Kwon Do and Kickboxing and therefore have become quite proficient to block with my face.
         `,
-    IMAGE: "Picture of Sindre V. Storesund"
+    IMAGE: "Picture of Sindre V. Storesund",
   },
 
   CONTACT_ME_TEXT: {
@@ -92,7 +92,7 @@ export const ENGTEXT = {
     BUTTON_GITHUB: "Github",
     BUTTON_SITE: "Try page",
   },
-  
+
   INFO: {
     EMAIL: "sindre2.kodehode@gmail.com",
     GITHUB: "https://github.com/sindre2",
@@ -101,4 +101,3 @@ export const ENGTEXT = {
     LINKEDIN_LOGO_ALT: "Linkedin logo",
   },
 };
-
