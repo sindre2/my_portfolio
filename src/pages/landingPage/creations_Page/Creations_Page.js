@@ -9,7 +9,9 @@ export function Creations(props) {
   if (props.github) {
     return (
       <div className="creations-container">
-        <h2>{props.title}</h2>
+        {/* LØRDAG 4 FEBRUAR, JEG HER HER!!! PRØVER Å OVERSETTE CREATIONS. */}
+        <h2><Trans i18nKey={props.title}></Trans></h2>
+        {/* <h2>{t(props.title)}</h2> */}
         <div className="creations-container-image">
           <img src={props.image} alt={props.alt} />
         </div>
@@ -33,13 +35,13 @@ export function Creations(props) {
             </HomeButton>
           </div>
         </div>
-        <p>{props.description}</p>
+        <p><Trans i18nKey={props.description}></Trans></p>
       </div>
     );
   } else {
     return (
       <div className="creations-container">
-        <h2>{props.title}</h2>
+        <h2><Trans i18nKey={props.title}></Trans></h2>
         <div className="creations-container-image">
           <img src={props.image} alt={props.alt} />
         </div>
@@ -49,10 +51,12 @@ export function Creations(props) {
             target="_blank"
             rel="noreferrer"
           >
-            Prøv siden
+            <Trans i18nKey={creations + ".BUTTON_SITE"}>
+                {/* Text will be rendered here, check "i18n.js" in "content". */}
+              </Trans>
           </HomeButton>
         </div>
-        <p>{props.description}</p>
+        <p><Trans i18nKey={props.description}></Trans></p>
       </div>
     );
   }

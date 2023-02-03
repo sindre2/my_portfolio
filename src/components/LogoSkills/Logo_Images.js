@@ -5,7 +5,10 @@ import reactLogo from "../../images/react.png";
 import figmaLogo from "../../images/figma.png";
 import sqlLogo from "../../images/sql.svg";
 import gitLogo from "../../images/git.png";
+import pyLogo from "../../images/pythonIcon.png"
+import djangoLogo from "../../images/djangoIcon.png"
 
+// Imports of logo-images from folder.
 
 export const logo_Images = { 
     html: htmlLogo,
@@ -15,4 +18,6 @@ export const logo_Images = {
     figma: figmaLogo,
     sql: sqlLogo,
     git: gitLogo,
+    py: pyLogo,
+    django: djangoLogo,
 };

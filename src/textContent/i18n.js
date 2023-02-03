@@ -1,7 +1,7 @@
 import i18next from "i18next";
 import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
-import { NORTEXT, ENGTEXT } from "./content";
+// import { NORTEXT, ENGTEXT } from "./content";
 
 export const lngs = {
   no: { nativeName: "Norsk" },
@@ -57,6 +57,57 @@ i18next
           CREATIONS: {
             BUTTON_GITHUB: "Github",
             BUTTON_SITE: "Prøv siden",
+            CREATIONS_DATA:
+            {
+              SKELETOR:
+              {
+                TITLE: "Skeletor lydbrett",
+                ALT: "Skjermbildet av nettsiden Skeletor lydbrett",
+                DESCRIPTION: "Morsomme lyder ifra tegnefilmfiguren Skeletor.",
+              },
+              PLANETARIUM:
+              {
+                TITLE: "Planetarium",
+                ALT: "Skjermbildet av nettsiden Planetarium",
+                DESCRIPTION: "Gruppeprosjekt for oppgave utgitt av kodehodet. Et planetarium som viser generell informasjon om Jordens solsystem.",
+              },
+              MACHO:
+              {
+                TITLE: "Machoman gjøreliste",
+                ALT: "Skjermbildet av nettsiden Machoman Todo-List",
+                DESCRIPTION: 'En trenings gjøreliste som er litt vel "macho".',
+              },
+              POKEDEX:
+              {
+                TITLE: "Pokedex",
+                ALT: "Skjermbildet av nettsiden Pokedex",
+                DESCRIPTION: 'Et bibliotek for Pokemon som henter data ifra en API.',
+              },
+              QUESTIONARE:
+              {
+                TITLE: "Questionare",
+                ALT: "Skjermbildet av nettsiden Questionare",
+                DESCRIPTION: 'Spørrespill hvor en kan velge mellom forskjellige tema hentet fra en API.',
+              },
+              PASSGEN:
+              {
+                TITLE: "Passordgenerator",
+                ALT: "Skjermbildet av nettsiden Passordgenerator",
+                DESCRIPTION: 'En passordgenerator som lager et sikkert passord for personlig bruk.',
+              },
+              COLORGEN:
+              {
+                TITLE: "Fargegenerator",
+                ALT: "Skjermbildet av nettsiden Fargegenerator",
+                DESCRIPTION: 'En fargegenerator som lager en palett av farger etter utvalgt ønske.',
+              },
+              FIGMA:
+              {
+                TITLE: "Figmanettside",
+                ALT: "Skjermbildet av en nettside laget i Figma",
+                DESCRIPTION: 'Enkel nettside i Figma.',
+              },
+            },
           },
           INFO: {
             EMAIL: "sindre2.kodehode@gmail.com",
@@ -110,6 +161,58 @@ i18next
           CREATIONS: {
             BUTTON_GITHUB: "Github",
             BUTTON_SITE: "Try page",
+            CREATIONS_DATA:
+            {
+              SKELETOR:
+              {
+                TITLE: "Skeletor Soundboard",
+                ALT: "Screenshot of the webside Skeletor Soundboard",
+                DESCRIPTION: "Funny soundclips from the cartoon character Skeletor.",
+              },
+              PLANETARIUM:
+              {
+                TITLE: "Planetarium",
+                ALT: "Screenshot of the website Planetarium",
+                DESCRIPTION: "Group project for a task given by 'kodehodet'. A planetarium that shows general information about the Earth's solar system.",
+              },
+              MACHO:
+              {
+                TITLE: "Machoman to do list",
+                ALT: "Screenshot of the website Machoman Todo-List",
+                DESCRIPTION: 'A training to do list that is a bit "macho".',
+              },
+              POKEDEX:
+              {
+                TITLE: "Pokedex",
+                ALT: "Screenshot of the website Pokedex",
+                DESCRIPTION: 'A library of Pokemon that fetches data from an API.',
+              },
+              QUESTIONARE:
+              {
+                TITLE: "Questionare",
+                ALT: "Screenshot of the website Questionare",
+                DESCRIPTION: 'Quiz-game where you can choose between different topics fetched from an API.',
+              },
+              PASSGEN:
+              {
+                TITLE: "Password generator",
+                ALT: "Screenshot of the website Passordgenerator",
+                DESCRIPTION: 'A password generator that makes a secure password for personal use.',
+              },
+              COLORGEN:
+              {
+                TITLE: "Color generator",
+                ALT: "Screenshot of the website Fargegenerator",
+                DESCRIPTION: 'A color generator that makes a color scheme based on your choices.',
+              },
+              FIGMA:
+              {
+                TITLE: "Figma website",
+                ALT: "Screenshot of a website made in Figma",
+                DESCRIPTION: 'Simple website made in Figma',
+              },
+              
+            },
           },
           INFO: {
             EMAIL: "sindre2.kodehode@gmail.com",

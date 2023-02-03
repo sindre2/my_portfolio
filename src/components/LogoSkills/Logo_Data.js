@@ -2,6 +2,8 @@ import { logo_Images } from "./Logo_Images"
 
 const short = logo_Images;
 
+// Array of all the software icons that I can use.
+
 export const logo_Data = [
   {
     key: 0,
@@ -37,5 +39,15 @@ export const logo_Data = [
     key: 6,
     alt: "git-logo",
     image: short.git,
+  },
+  {
+    key: 7,
+    alt: "python-logo",
+    image: short.py,
+  },
+  {
+    key: 8,
+    alt: "django-logo",
+    image: short.django,
   },
 ];

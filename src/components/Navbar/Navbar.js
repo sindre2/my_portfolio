@@ -4,7 +4,8 @@ import { useTranslation, Trans } from "react-i18next";
 import { lngs } from "../../textContent/i18n";
 
 export const Navbar = () => {
-  const navbar = NORTEXT.NAVBAR_TEXT;
+  const navbar = "NAVBAR_TEXT.";
+  // const navbar = NORTEXT.NAVBAR_TEXT;
   const navigation = NORTEXT.NAVBAR_TEXT_NAVIGATION;
   const { t, i18n } = useTranslation();
 
@@ -25,19 +26,27 @@ export const Navbar = () => {
       </div>
       <NavListMain>
         <li>
-          <NavItems to={`/${navigation.HOME}`}>{navbar.HOME}</NavItems>
+          <NavItems to={`/${navigation.HOME}`}>
+          <Trans i18nKey={navbar + "HOME"}></Trans>
+            {/* {navbar.HOME} */}
+          </NavItems>
         </li>
         <li>
-          <NavItems to={`/${navigation.ABOUT_ME}`}>{navbar.ABOUT_ME}</NavItems>
+          <NavItems to={`/${navigation.ABOUT_ME}`}>
+          <Trans i18nKey={navbar + "ABOUT_ME"}></Trans>  
+            {/* {navbar.ABOUT_ME} */}
+          </NavItems>
         </li>
         <li>
           <NavItems to={`/${navigation.CREATIONS}`}>
-            {navbar.CREATIONS}
+          <Trans i18nKey={navbar + "CREATIONS"}></Trans>
+            {/* {navbar.CREATIONS} */}
           </NavItems>
         </li>
         <li>
           <NavItems to={`/${navigation.CONTACT_ME}`}>
-            {navbar.CONTACT_ME}
+          <Trans i18nKey={navbar + "CONTACT_ME"}></Trans>
+            {/* {navbar.CONTACT_ME} */}
           </NavItems>
         </li>
       </NavListMain>

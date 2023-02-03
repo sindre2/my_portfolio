@@ -15,7 +15,9 @@ export const Home_Page = () => {
   return (
     <Home_Styles>
       <div className="home-body">
+        {/* Container of icons for software I can use. Skills section. */}
         <div className="home-container-logo">{Logo()}</div>
+        {/* The main container on the homepage containing self-portrait, two buttons that link to about-me and creations and icons that link to github and linkedin. */}
         <div className="home-container">
           <img
             src={selvPortrett}
@@ -41,6 +43,7 @@ export const Home_Page = () => {
             <Social_Icons />
           </div>
         </div>
+        {/* Container with a small description of myself. */}
         <div className="home-container-two">
           <p>
             <Trans i18nKey={home + "DESCRIPTION"}></Trans>
