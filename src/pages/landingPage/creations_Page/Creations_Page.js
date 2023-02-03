@@ -9,7 +9,6 @@ export function Creations(props) {
   if (props.github) {
     return (
       <div className="creations-container">
-        {/* LØRDAG 4 FEBRUAR, JEG HER HER!!! PRØVER Å OVERSETTE CREATIONS. */}
         <h2><Trans i18nKey={props.title}></Trans></h2>
         {/* <h2>{t(props.title)}</h2> */}
         <div className="creations-container-image">
