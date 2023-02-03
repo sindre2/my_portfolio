@@ -1,35 +1,47 @@
 import { HomeButton } from "../../../components/styledComponents/HomeButton";
-import { TEXT } from "../../../textContent/content";
+import { useTranslation, Trans } from "react-i18next";
 
 export function Creations(props) {
   //if else - for å legge merke til om noen prosjekter ikke har "properties" lenke til github. Eks: Figma prosjekt. Hvis det ikke finnes blir ikke en github-lenke knapp lagt til.
+  const creations = "CREATIONS";
+  const { t } = useTranslation();
 
   if (props.github) {
     return (
       <div className="creations-container">
-        <h2>{props.title}</h2>
+        {/* LØRDAG 4 FEBRUAR, JEG HER HER!!! PRØVER Å OVERSETTE CREATIONS. */}
+        <h2><Trans i18nKey={props.title}></Trans></h2>
+        {/* <h2>{t(props.title)}</h2> */}
         <div className="creations-container-image">
           <img src={props.image} alt={props.alt} />
         </div>
         <div className="creations-container-buttons">
           <div className="creation-button">
             <HomeButton href={props.github} target="_blank" rel="noreferrer">
-              {TEXT.CREATIONS.BUTTON_GITHUB}
+              <Trans i18nKey={creations + ".BUTTON_GITHUB"}>
+                {/* Text will be rendered here, check "i18n.js" in "content". */}
+              </Trans>
             </HomeButton>
           </div>
           <div className="creation-button">
-            <HomeButton href={props.github_Pages} target="_blank" rel="noreferrer">
-              {TEXT.CREATIONS.BUTTON_SITE}
+            <HomeButton
+              href={props.github_Pages}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Trans i18nKey={creations + ".BUTTON_SITE"}>
+                {/* Text will be rendered here, check "i18n.js" in "content". */}
+              </Trans>
             </HomeButton>
           </div>
         </div>
-        <p>{props.description}</p>
+        <p><Trans i18nKey={props.description}></Trans></p>
       </div>
     );
   } else {
     return (
       <div className="creations-container">
-        <h2>{props.title}</h2>
+        <h2><Trans i18nKey={props.title}></Trans></h2>
         <div className="creations-container-image">
           <img src={props.image} alt={props.alt} />
         </div>
@@ -39,10 +51,12 @@ export function Creations(props) {
             target="_blank"
             rel="noreferrer"
           >
-            Prøv siden
+            <Trans i18nKey={creations + ".BUTTON_SITE"}>
+                {/* Text will be rendered here, check "i18n.js" in "content". */}
+              </Trans>
           </HomeButton>
         </div>
-        <p>{props.description}</p>
+        <p><Trans i18nKey={props.description}></Trans></p>
       </div>
     );
   }
