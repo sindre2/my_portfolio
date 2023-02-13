@@ -1,5 +1,5 @@
 import { NORTEXT } from "../../textContent/content";
-import { NavItems, Nav, NavListMain } from "./navbarStyles";
+import { NavItems, Nav, NavListMain, LngBtns } from "./navbarStyles";
 import { useTranslation, Trans } from "react-i18next";
 import { lngs } from "../../textContent/i18n";
 
@@ -12,18 +12,21 @@ export const Navbar = () => {
   return (
     <Nav>
       <h2>【S】</h2>
-      <div className="lngButton">
-        {Object.keys(lngs).map((lng) => (
-          <button
-            type="submit"
-            key={lng}
-            onClick={() => i18n.changeLanguage(lng)}
-            disabled={i18n.resolvedLanguage === lng}
-          >
-            {lngs[lng].nativeName}
-          </button>
-        ))}
-      </div>
+      <LngBtns>
+        <div className="lngButton">
+          {Object.keys(lngs).map((lng) => (
+            <button
+              type="submit"
+              key={lng}
+              onClick={() => i18n.changeLanguage(lng)}
+              disabled={i18n.resolvedLanguage === lng}
+              className={i18n.resolvedLanguage === lng? 'TurnedOff' : ''}
+            >
+              {lngs[lng].nativeName}
+            </button>
+          ))}
+        </div>
+      </LngBtns>
       <NavListMain>
         <li>
           <NavItems to={`/${navigation.HOME}`}>

@@ -123,11 +123,8 @@ export const Home_Styles = styled.div`
     }
 
     .home-container-two {
+      height: 130px;
       align-self: center;
-    }
-
-    .home-container-two {
-      height: 110px;
     }
 
     /* logo-container is the div className for the Logo_Render component. */
