@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HomeButton = styled.a`
-  background: ${(props) => props.theme.colors_light.background_three};
+  background-color: ${(props) => props.theme.colors_light.background_three};
   font-weight: bold;
   border-radius: 15px;
   border: 1px solid ${(props) => props.theme.colors_light.border_one};

@@ -8,7 +8,7 @@ import { Social_Icons } from "../../../components/Social_Icons/Social_Icons";
 import { useTranslation, Trans } from "react-i18next";
 
 export const Home_Page = () => {
-  const navigation = "NAVBAR_TEXT_NAVIGATION";
+  const navigation = NORTEXT.NAVBAR_TEXT_NAVIGATION;
   const home = "HOME_TEXT.";
   const { t } = useTranslation();
 

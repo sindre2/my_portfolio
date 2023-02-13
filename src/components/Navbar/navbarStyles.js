@@ -39,6 +39,25 @@ export const NavList = styled.ul`
   }
 `;
 
+export const LngBtns = styled.div`
+.lngButton > button {
+  font-family: ${(props) => props.theme.fonts.header}, sans-serif;
+  font-weight: bold;
+  background-color: ${(props) => props.theme.colors_light.background_three};
+  color: white;
+  height: 25px;
+  width: 70px;
+}
+
+.lngButton > button:hover {
+    cursor: pointer;
+  }
+
+.lngButton > button:disabled {
+  opacity: 30%;
+}
+`
+
 export const NavListMain = styled(NavList)`
   min-width: 40%;
   justify-content: space-evenly;
