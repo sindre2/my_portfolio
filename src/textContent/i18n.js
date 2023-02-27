@@ -41,7 +41,7 @@ i18next
           ABOUT_ME_TEXT: {
             TITLE: "Om Meg",
             PITCH: `
-                            30 år gammel mann som går på Kodehode for å lære hemmelighetene bak alle disse kattepus videoene. Dvs den hellige digitale treenigheten: HTML, CSS og Javascript. Jeg har også tuklet rundt nok med React, SQL, Git og kan lage nettsider i Figma.
+                            30 år gammel mann som går på Kodehode for å lære hemmelighetene bak alle disse kattepus videoene. Dvs den hellige digitale treenigheten: HTML, CSS og Javascript. Jeg har også tuklet rundt nok med React, SQL, Git, Python, Django og kan lage nettsider i Figma.
                             Er en kløpper på RTS, slåssespill og kan svette i spillstolen med selv de beste. Det er alltid en fryd når en spiller med meg ettersom du før høre det om du vinner eller taper.
                             Ellers har jeg drevet med kampsport som Tae Kwon Do og Kickboxing og har derfor blitt veldig god til blokkere med fjeset.
                             `,
@@ -146,7 +146,7 @@ i18next
           ABOUT_ME_TEXT: {
             TITLE: "About Me",
             PITCH: `
-                            30 year old man currently attending a course to learn the secrets behind all these cat videos. That means the holy digital trinity: HTML, CSS and Javascript. I've also fumbled around with React, SQL, Git and can make web pages in Figma.
+                            30 year old man currently attending a course to learn the secrets behind all these cat videos. That means the holy digital trinity: HTML, CSS and Javascript. I've also fumbled around with React, SQL, Git, Python, Django and can make web pages in Figma.
                             I am well versed in RTS, fighting games and can sweat in the gaming chair with the best of them. It's always a joy to play with me considering you will hear it wether you win or lose. Otherwise I've done combat sports such as Tae Kwon Do and Kickboxing and therefore have become quite proficient to block with my face.
                             `,
             IMAGE: "Picture of Sindre V. Storesund",
