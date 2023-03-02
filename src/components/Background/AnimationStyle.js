@@ -5,7 +5,7 @@ export const AnimationStyle = styled.div`
     display: flex;
     justify-content: space-around;
     position: absolute;
-    overflow: visible;
+    width: 100%;
     z-index: -1;
     bottom: 100%;
   }

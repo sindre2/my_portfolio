@@ -12,6 +12,7 @@ export const Home_Styles = styled.div`
     align-items: center;
     justify-content: center;
     height: 90vh;
+    overflow: hidden;
   }
 
   .home-container,
@@ -104,7 +105,7 @@ export const Home_Styles = styled.div`
       flex-direction: column-reverse;
       font-size: 0.9rem;
       padding-top: 2rem;
-      overflow: scroll;
+      overflow-y: scroll;
       height: 100vh;
     }
 

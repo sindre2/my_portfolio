@@ -6,6 +6,7 @@ export const AboutMe_Styles = styled.div`
     justify-content: center;
     align-items: center;
     height: 90vh;
+    overflow: hidden;
   }
 
   .aboutMe-container-logo {

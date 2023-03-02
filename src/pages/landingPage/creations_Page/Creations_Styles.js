@@ -7,8 +7,9 @@ export const Creations_Styles = styled.div`
     grid-gap: 25px;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 100vw;
+    height: 90vh;
+    width: 100%;
+    overflow-x: hidden;
     overflow-y: scroll;
     padding-top: 70px;
     padding-bottom: 3%;
@@ -50,7 +51,7 @@ export const Creations_Styles = styled.div`
   .creations-container > p {
     height: 20%;
     width: 95%;
-    overflow: scroll;
+    overflow: hidden;
     border: 1px solid ${(props) => props.theme.colors_light.background_one};
     border-radius: 15px;
     padding: 1% 0 0 5%;
@@ -112,7 +113,7 @@ export const Creations_Styles = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: scroll;
+    overflow-y: scroll;
     height: 100%;
   }
 
