@@ -2,12 +2,17 @@ import styled from "styled-components";
 
 export const Creations_Styles = styled.div`
   .creations-body {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 25px;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -107,12 +112,14 @@ export const Creations_Styles = styled.div`
 
   /* Viewer settings for Creations page */
 
-  @media screen and (max-width: 1380px), screen and (max-height: 540px) {
+  @media screen and (max-width: 1080px), screen and (max-height: 540px) {
     .creations-body {
-    display: flex;
+      grid-template-columns: auto;
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
     align-items: center;
+    overflow-x: hidden;
     overflow-y: scroll;
     height: 100%;
   }

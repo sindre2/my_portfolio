@@ -26,6 +26,7 @@ export const AboutMe_Styles = styled.div`
   }
 
   .aboutMe-container {
+    flex-wrap: wrap;
     justify-self: center;
     display: flex;
     flex-direction: column;
@@ -48,8 +49,9 @@ export const AboutMe_Styles = styled.div`
   .aboutMe-github-logo
   {
     display: flex;
-    justify-content: space-between;
-    width: 20%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 
   .aboutMe-github-logo > a > img {
@@ -60,6 +62,11 @@ export const AboutMe_Styles = styled.div`
   .aboutMe-github-logo > a > img:hover {
     background-color: yellow;
     cursor: pointer;
+  }
+
+  .logo-container {
+    display: grid;
+    grid-template-columns: auto auto;
   }
 
   /* Viewer settings for About_Me page */
@@ -77,12 +84,19 @@ export const AboutMe_Styles = styled.div`
     }
 
     .aboutMe-container {
+      display: grid;
+      grid-template-columns: auto;
+      gap: 1rem;
       max-width: 40%;
       min-width: 330px;
       height: 60%;
-      min-height: 300px;
       border-radius: 40px;
+      padding: 0.75rem;
       overflow-y: scroll;
+    }
+
+    .aboutMe-container h1 {
+      text-align: center;
     }
 
     .aboutMe-container-logo
@@ -92,9 +106,8 @@ export const AboutMe_Styles = styled.div`
 
     /* logo-container is the div className for the Logo_Render component. */
     .logo-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      grid-template-columns: none;
+      grid-auto-flow: column;
       width: fit-content;
       height: fit-content;
     }
@@ -107,4 +120,10 @@ export const AboutMe_Styles = styled.div`
       cursor: pointer;
     }
   }
+  @media screen and (max-width: 590px), screen and (max-height: 630px) {
+    .logo-container {
+      display: grid;
+      grid-template-rows: auto auto;
+  }
+}
 `;
