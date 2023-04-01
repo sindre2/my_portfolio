@@ -2,12 +2,13 @@ import styled from "styled-components";
 
 export const AnimationStyle = styled.div`
   .ani-container {
+    box-sizing: content-box;
     display: flex;
     justify-content: space-around;
-    position: absolute;
-    width: 100%;
+    position: fixed;
+    width: 100vw;
+    bottom: 100vh;
     z-index: -1;
-    bottom: 100%;
   }
 
   .line_1 {
@@ -85,7 +86,7 @@ export const AnimationStyle = styled.div`
     width: 4px;
     border-radius: 8px;
     background-color: rgb(255, 0, 0, 0.25);
-    margin: 0 3rem;
+    /* margin: 0 3rem; */
     position: relative;
   }
 
@@ -96,5 +97,8 @@ export const AnimationStyle = styled.div`
     to {
       top: 0px;
     }
+  }
+  @media screen and (max-width: 1520px) {
+    
   }
 `;
