@@ -7,15 +7,22 @@ export const Home_Styles = styled.div`
   }
 
   .home-body {
-    display: grid;
+    /* display: grid;
     grid-template-columns: 200px auto 200px;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     /* height: 90vh; */
     overflow-x: hidden;
     overflow-y: scroll;
     box-sizing: content-box;
-    padding: 8rem 0 10rem;
+    padding: 8rem 0;
+  }
+
+  .home-view-container {
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    align-items: center;
+    justify-content: center;
   }
 
   .home-container,
@@ -104,12 +111,11 @@ export const Home_Styles = styled.div`
   /* Viewer settings for Home_Page. */
 
   @media screen and (max-width: 1100px), screen and (max-height: 620px) {
-    .home-body {
+    .home-view-container {
       display: flex;
       flex-direction: column-reverse;
       font-size: 0.9rem;
-      padding: 4rem 0 23rem;
-      overflow-y: scroll;
+      padding: 4rem 0;
       height: 100vh;
       box-sizing: content-box;
     }

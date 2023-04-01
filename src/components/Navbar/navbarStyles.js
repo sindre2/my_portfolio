@@ -73,7 +73,7 @@ export const NavListMain = styled(NavList)`
   @media screen and (max-width: 665px) {
     display: none;
     height: 60px;
-    padding: 0 1rem;
+    padding: 0 0.3rem;
     align-items: center;
     justify-content: space-between;
     top: 60px;

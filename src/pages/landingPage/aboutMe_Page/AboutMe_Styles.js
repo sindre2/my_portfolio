@@ -10,6 +10,7 @@ export const AboutMe_Styles = styled.div`
     padding: 8rem 0 6rem;
   }
 
+  /* The logos over skills and programming languages that I know. */
   .aboutMe-container-logo {
     margin-left: auto;
     margin-right: 2rem;
@@ -26,11 +27,13 @@ export const AboutMe_Styles = styled.div`
     animation: render 400ms ease-in;
   }
 
+  /* Container with text about me. */
   .aboutMe-container {
     flex-wrap: wrap;
     justify-self: center;
     display: flex;
     flex-direction: column;
+    gap: 2rem;
     justify-content: space-evenly;
     align-items: center;
     border-radius: 40px;
