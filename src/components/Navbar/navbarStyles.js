@@ -75,7 +75,7 @@ export const NavListMain = styled(NavList)`
     height: 60px;
     padding: 0 0.3rem;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     top: 60px;
     position: fixed;
     width: 100%;
