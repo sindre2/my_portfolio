@@ -71,4 +71,10 @@ export const ContactMe_Page_Body = styled.div`
     transition: none;
   }
 }
+
+  @media screen and (max-height: 400px) {
+    .contactMe-body {
+      padding: 12rem 0;
+    }
+  }
 `;
