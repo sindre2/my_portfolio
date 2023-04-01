@@ -44,12 +44,12 @@ export const ContactMe_Page_Body = styled.div`
   .links > a,
   .contactMe-container {
     font-size: 0.9rem;
-    overflow: hidden;
+    overflow-y: scroll;
   }
 
   .contactMe-container {
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
   }
 
   .contactMe-container-text {

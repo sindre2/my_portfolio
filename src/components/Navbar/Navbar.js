@@ -1,5 +1,5 @@
 import { NORTEXT } from "../../textContent/content";
-import { NavItems, Nav, NavListMain, LngBtns } from "./navbarStyles";
+import { NavItems, Nav, NavListMain, LngBtns, NavHamburgerMenu } from "./navbarStyles";
 import { useTranslation, Trans } from "react-i18next";
 import { lngs } from "../../textContent/i18n";
 import { useState } from "react";
@@ -71,6 +71,7 @@ export const Navbar = () => {
           ))}
         </div>
       </LngBtns>
+      <NavHamburgerMenu />
       <NavListMain>
         <li>
           <NavItems to={`/${navigation.HOME}`} onClick={() => handleNav('home')} style={{ color: active.home ? "yellow" : '', textDecoration: active.home ? 'underline' : 'none' }}>

@@ -5,8 +5,9 @@ export const AboutMe_Styles = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
-    overflow: hidden;
+    height: 100%;
+    overflow-y: scroll;
+    padding: 8rem 0 6rem;
   }
 
   .aboutMe-container-logo {

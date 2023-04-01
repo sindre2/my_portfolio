@@ -17,7 +17,7 @@ export const Creations_Styles = styled.div`
     overflow-x: hidden;
     overflow-y: scroll;
     padding-top: 70px;
-    padding-bottom: 3%;
+    padding-bottom: 6rem;
   }
 
   /* Creations-page container settings */

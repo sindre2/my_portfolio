@@ -11,8 +11,11 @@ export const Home_Styles = styled.div`
     grid-template-columns: 200px auto 200px;
     align-items: center;
     justify-content: center;
-    height: 90vh;
-    overflow: hidden;
+    /* height: 90vh; */
+    overflow-x: hidden;
+    overflow-y: scroll;
+    box-sizing: content-box;
+    padding: 8rem 0 10rem;
   }
 
   .home-container,
@@ -50,6 +53,7 @@ export const Home_Styles = styled.div`
     display: flex;
     align-items: center;
     width: 50%;
+    min-width: 136px;
   }
 
   .home-buttons:first-child {
@@ -104,9 +108,10 @@ export const Home_Styles = styled.div`
       display: flex;
       flex-direction: column-reverse;
       font-size: 0.9rem;
-      padding-top: 2rem;
+      padding: 4rem 0 23rem;
       overflow-y: scroll;
       height: 100vh;
+      box-sizing: content-box;
     }
 
     .home-container,
