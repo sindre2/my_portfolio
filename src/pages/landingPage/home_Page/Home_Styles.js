@@ -15,7 +15,7 @@ export const Home_Styles = styled.div`
     overflow-x: hidden;
     overflow-y: scroll;
     box-sizing: content-box;
-    padding: 8rem 0;
+    padding: 4rem 0 2rem;
   }
 
   /* View container was added because of a bug occuring on home-body, unkown why but two scroll elements were present. */
@@ -117,7 +117,7 @@ export const Home_Styles = styled.div`
       display: flex;
       flex-direction: column-reverse;
       font-size: 0.9rem;
-      padding: 8rem 0 4rem;
+      padding: 4rem 0;
       height: 100vh;
       box-sizing: content-box;
     }
@@ -153,6 +153,11 @@ export const Home_Styles = styled.div`
 
     .logo-container > img {
       width: 40px;
+    }
+  }
+  @media  screen and (max-height: 600px) {
+    .home-body {
+      padding: 8rem 0;
     }
   }
 `;
