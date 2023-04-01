@@ -48,7 +48,8 @@ export const ContactMe_Page_Body = styled.div`
   }
 
   .contactMe-container {
-    height: 350px;
+    border-radius: 15px;
+    height: 200px;
     width: 350px;
   }
 

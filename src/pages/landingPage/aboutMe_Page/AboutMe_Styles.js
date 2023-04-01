@@ -84,7 +84,8 @@ export const AboutMe_Styles = styled.div`
     }
 
     .aboutMe_selfPortrait {
-      display: none;
+      margin: 0 auto 2rem;
+      width: 200px;
     }
 
     .aboutMe-container {

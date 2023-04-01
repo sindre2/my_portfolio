@@ -20,6 +20,7 @@ export const Home_Styles = styled.div`
 
   /* View container was added because of a bug occuring on home-body, unkown why but two scroll elements were present. */
   .home-view-container {
+    padding-top: 1rem;
     display: grid;
     grid-template-columns: 200px auto 200px;
     align-items: center;
@@ -116,7 +117,7 @@ export const Home_Styles = styled.div`
       display: flex;
       flex-direction: column-reverse;
       font-size: 0.9rem;
-      padding: 4rem 0;
+      padding: 8rem 0 4rem;
       height: 100vh;
       box-sizing: content-box;
     }
