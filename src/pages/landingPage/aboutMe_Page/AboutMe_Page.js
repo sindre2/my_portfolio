@@ -1,6 +1,6 @@
 import { NORTEXT } from "../../../textContent/content";
 import { Logo } from "../../../components/LogoSkills/Logo_Render";
-import selvPortrett from "../../../images/selvPortrett.png";
+import selvPortrett2 from "../../../images/selvPortrett2.jpg";
 import { AboutMe_Styles } from "./AboutMe_Styles";
 import { Social_Icons } from "../../../components/Social_Icons/Social_Icons";
 import { useTranslation, Trans } from "react-i18next";
@@ -26,7 +26,7 @@ export function About_Me() {
           </div>
         </div>
         <img
-          src={selvPortrett}
+          src={selvPortrett2}
           className="aboutMe_selfPortrait"
           alt={aboutMe.IMAGE}
         />

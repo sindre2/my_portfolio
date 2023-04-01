@@ -1,6 +1,6 @@
 import { HomeButton } from "../../../components/styledComponents/HomeButton";
 import { NORTEXT } from "../../../textContent/content";
-import selvPortrett from "../../../images/selvPortrett.png";
+import selvPortrett2 from "../../../images/selvPortrett2.jpg";
 import { Logo } from "../../../components/LogoSkills/Logo_Render";
 import { Home_Styles } from "./Home_Styles";
 import { Link } from "react-router-dom";
@@ -22,7 +22,7 @@ export const Home_Page = () => {
           {/* The main container on the homepage containing self-portrait, two buttons that link to about-me and creations and icons that link to github and linkedin. */}
           <div className="home-container">
             <img
-              src={selvPortrett}
+              src={selvPortrett2}
               className="homePage_selfPortrait"
               alt="Bildet av Sindre V. Storesund"
             />
