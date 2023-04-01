@@ -18,6 +18,7 @@ export const Home_Styles = styled.div`
     padding: 8rem 0;
   }
 
+  /* View container was added because of a bug occuring on home-body, unkown why but two scroll elements were present. */
   .home-view-container {
     display: grid;
     grid-template-columns: 200px auto 200px;
