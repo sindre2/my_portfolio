@@ -122,17 +122,15 @@ export const Creations_Styles = styled.div`
     overflow-x: hidden;
     overflow-y: scroll;
     height: 100%;
+    padding-bottom: 2rem;
+    }
+
+    .creations-container {
+      margin: 10px 0;
+    }
+
+    .creations-container:first-child {
+      margin-top: 70px;
+    }
   }
-
-  .creations-container {
-    margin: 10px 0;
-  }
-
-  .creations-container:first-child {
-    margin-top: 70px;
-  }
-  }
-
-
-
 `;

@@ -160,9 +160,9 @@ export const Home_Styles = styled.div`
       padding: 8rem 0;
     }
   }
-  @media  screen and (max-height: 440px) {
+  @media  screen and (max-height: 500px) {
     .home-body {
-      padding: 16rem 0;
+      padding: 14rem 0 4rem;
     }
   }
 `;
