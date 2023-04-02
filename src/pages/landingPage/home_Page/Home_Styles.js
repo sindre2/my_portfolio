@@ -14,7 +14,7 @@ export const Home_Styles = styled.div`
     /* height: 90vh; */
     overflow-x: hidden;
     overflow-y: scroll;
-    box-sizing: content-box;
+    box-sizing: border-box;
     padding: 4rem 0 2rem;
   }
 
@@ -162,7 +162,7 @@ export const Home_Styles = styled.div`
   }
   @media  screen and (max-height: 500px) {
     .home-body {
-      padding: 14rem 0 4rem;
+      padding: 14rem 0 8rem;
     }
   }
 `;

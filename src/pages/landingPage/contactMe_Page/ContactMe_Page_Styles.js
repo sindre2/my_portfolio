@@ -7,6 +7,7 @@ export const ContactMe_Page_Body = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
   }
   .contactMe-container {
     display: flex;
