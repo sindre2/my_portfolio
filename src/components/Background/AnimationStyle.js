@@ -85,7 +85,7 @@ export const AnimationStyle = styled.div`
     height: 15px;
     width: 4px;
     border-radius: 8px;
-    background-color: rgb(255, 0, 0, 0.25);
+    background-color: ${(props) => props.theme[props.visualMode ? "colors_dark" : "colors_light"].background_animation_color};
     /* margin: 0 3rem; */
     position: relative;
   }

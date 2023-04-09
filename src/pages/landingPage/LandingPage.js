@@ -3,14 +3,14 @@ import CustomRoutes from "../../components/Routes";
 import { Animation } from "../../components/Background/Animation";
 import { AnimationStyle } from "../../components/Background/AnimationStyle";
 
-export function LandingPage() {
+export function LandingPage(props) {
   return (
     <>
       <Navbar />
-      <AnimationStyle>
+      <AnimationStyle visualMode={props.visualMode}>
         <Animation />
       </AnimationStyle>
-      <CustomRoutes />
+      <CustomRoutes visualMode={props.visualMode}/>
     </>
   );
 }

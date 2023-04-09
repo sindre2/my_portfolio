@@ -12,9 +12,9 @@ const Logo_Map = logo_Data.map((props) => {
 });
 
 //Logo is then exported as a clean export since all neccesary operations are happening here. I can put in as many entries in logo_Data as I want and they will be rendered inside the div with classname "logo-container".
-export const Logo = () => {
+export const Logo = (props) => {
   return (
-    <Logo_Styles>
+    <Logo_Styles visualMode={props}>
       <div className="logo-container">{Logo_Map}</div>
     </Logo_Styles>
   );

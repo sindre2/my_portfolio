@@ -1,13 +1,16 @@
 import { Trans, useTranslation } from "react-i18next";
 import { NORTEXT } from "../../../textContent/content";
-import { ContactMe_Page_Body } from "./ContactMe_Page_Styles";
+import { ContactMe_Page_Body } from "../../../components/styledPages/ContactMe_Page_Styles";
+import { useContext } from "react";
+import { ThemeContext } from "../../../components/context/ThemeContext";
 
 export function Contact_Me() {
   const { t } = useTranslation();
   const contact = "CONTACT_ME_TEXT.";
+  const visualMode = useContext(ThemeContext);
 
   return (
-    <ContactMe_Page_Body>
+    <ContactMe_Page_Body visualMode={visualMode.visualMode}>
       <div className="contactMe-body">
         <div className="contactMe-container">
           <h1>

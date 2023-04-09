@@ -31,7 +31,7 @@ i18next
           },
 
           HOME_TEXT: {
-            TITLE: "Sindre V. Storesund Front End Developer",
+            TITLE: "Sindre V. Storesund Front End Utvikler",
             DESCRIPTION:
               "Sindre, aspirerende nettutvikler og kode entusiast. Grunnleggende kunnskap innen frontend med stortåa nedi backend",
             BUTTON_ABOUT_ME: "Om meg",

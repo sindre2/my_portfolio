@@ -39,8 +39,9 @@ export const AboutMe_Styles = styled.div`
     border-radius: 40px;
     height: 75%;
     max-width: 40%;
-    background-color: ${(props) => props.theme.colors_light.background_one};
-    color: white;
+    background-color: ${(props) => props.theme[props.visualMode? "colors_dark" : "colors_light"].background_one};
+    color: ${(props) => props.theme[props.visualMode ? "colors_dark" : "colors_light"].text_color};
+    text-shadow: ${(props) => props.visualMode ? "-1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black" : "0"};
     padding: 2rem;
     line-height: 25px;
   }
@@ -56,21 +57,25 @@ export const AboutMe_Styles = styled.div`
     justify-content: center;
     align-items: center;
     width: 100%;
+    img {
+      background-color: ${(props) => props.theme[props.visualMode? "colors_dark" : "colors_light"].linkedin_github_icon};
+      &:hover {
+        background-color: ${(props) => props.theme[props.visualMode? "colors_dark" : "colors_light"].nav_link_hover};
+        cursor: pointer;
+      }
+    }
   }
 
+  /* CSS for selection only the github logo, linkedin logo keeps it's border radius. */
   .aboutMe-github-logo > a > img {
     width: 40px;
     border-radius: 50%;
   }
 
-  .aboutMe-github-logo > a > img:hover {
-    background-color: yellow;
-    cursor: pointer;
-  }
-
   .logo-container {
     display: grid;
     grid-template-columns: auto auto;
+    background-color: ${(props) => props.theme[props.visualMode? "colors_dark" : "colors_light"].background_two};
   }
 
   /* Viewer settings for About_Me page */

@@ -7,15 +7,15 @@ export const Home_Styles = styled.div`
   }
 
   .home-body {
-    /* display: grid;
-    grid-template-columns: 200px auto 200px;
-    align-items: center;
-    justify-content: center; */
-    /* height: 90vh; */
     overflow-x: hidden;
     overflow-y: scroll;
     box-sizing: border-box;
     padding: 4rem 0 2rem;
+  }
+
+  /* Settings for the logo skills container. */
+  .logo-container {
+    background-color: ${(props) => props.theme[props.visualMode? "colors_dark" : "colors_light"].background_two};
   }
 
   /* View container was added because of a bug occuring on home-body, unkown why but two scroll elements were present. */
@@ -29,7 +29,8 @@ export const Home_Styles = styled.div`
 
   .home-container,
   .home-container-two {
-    color: white;
+    color: ${(props) => props.theme[props.visualMode ? "colors_dark" : "colors_light"].text_color};
+    text-shadow: ${(props) => props.visualMode ? "-1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black" : "0"};
     border-radius: 50%;
     text-align: center;
     display: flex;
@@ -39,11 +40,10 @@ export const Home_Styles = styled.div`
   }
 
   /* The main container containing buttons and primary heading with a blue background. */
-
   .home-container {
     height: 500px;
     width: 500px;
-    background-color: ${(props) => props.theme.colors_light.background_one};
+    background-color: ${(props) => props.theme[props.visualMode ? "colors_dark" : "colors_light"].background_one};
   }
 
   .home-container > h1 {
@@ -51,7 +51,6 @@ export const Home_Styles = styled.div`
   }
 
   /* Settings for the buttons on the on the Home_Page. */
-
   .home-buttons-container {
     display: flex;
     justify-content: space-evenly;
@@ -63,6 +62,15 @@ export const Home_Styles = styled.div`
     align-items: center;
     width: 50%;
     min-width: 136px;
+  }
+  .home-buttons > a {
+    color: ${(props) => props.theme[props.visualMode ? "colors_dark" : "colors_light"].text_color};
+    background-color: ${(props) => props.theme[props.visualMode ? "colors_dark" : "colors_light"].background_three};
+    border: 1px solid ${(props) => props.theme[props.visualMode ? "colors_dark" : "colors_light"].border_one};
+    text-shadow: ${(props) => props.visualMode ? "-1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black" : "0"};
+    &:hover {
+      background-color: ${(props) => props.theme[props.visualMode ? "colors_dark" : "colors_light"].hover_one};
+    }
   }
 
   .home-buttons:first-child {
@@ -76,16 +84,20 @@ export const Home_Styles = styled.div`
   }
 
   /* Settings for the logos. */
-
   .home-social-logos {
     padding-top: 1rem;
+    img {
+    background-color: ${(props) => props.theme[props.visualMode? "colors_dark" : "colors_light"].linkedin_github_icon};
+    &:hover {
+      background-color: ${(props) => props.theme[props.visualMode? "colors_dark" : "colors_light"].nav_link_hover};
+    }
+    }
   }
 
   /* Secondary container containing a small description on a purple background. */
-
   .home-container-two {
     align-self: flex-end;
-    background-color: ${(props) => props.theme.colors_light.background_two};
+    background-color: ${(props) => props.theme[props.visualMode ? "colors_dark" : "colors_light"].background_two};
     height: 300px;
     width: 300px;
     font-size: 1.1rem;
@@ -94,7 +106,6 @@ export const Home_Styles = styled.div`
   }
 
   /* Animation settings for fading in content. */
-
   .home-container,
   .home-container-two,
   .home-container-logo {
@@ -111,7 +122,6 @@ export const Home_Styles = styled.div`
   }
 
   /* Viewer settings for Home_Page. */
-
   @media screen and (max-width: 1100px), screen and (max-height: 620px) {
     .home-view-container {
       display: flex;
@@ -142,7 +152,6 @@ export const Home_Styles = styled.div`
     }
 
     /* logo-container is the div className for the Logo_Render component. */
-
     .logo-container {
       justify-content: center;
       align-items: center;

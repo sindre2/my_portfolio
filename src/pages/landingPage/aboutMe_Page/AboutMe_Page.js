@@ -1,17 +1,18 @@
-import { NORTEXT } from "../../../textContent/content";
 import { Logo } from "../../../components/LogoSkills/Logo_Render";
 import selvPortrett2 from "../../../images/selvPortrett2.jpg";
-import { AboutMe_Styles } from "./AboutMe_Styles";
+import { AboutMe_Styles } from "../../../components/styledPages/AboutMe_Styles";
 import { Social_Icons } from "../../../components/Social_Icons/Social_Icons";
 import { useTranslation, Trans } from "react-i18next";
+import { useContext } from "react";
+import { ThemeContext } from "../../../components/context/ThemeContext";
 
 export function About_Me() {
   const aboutMe = "ABOUT_ME_TEXT";
-
+  const visualMode = useContext(ThemeContext)
   const { t } = useTranslation();
 
   return (
-    <AboutMe_Styles>
+    <AboutMe_Styles visualMode={visualMode.visualMode}>
       <div className="aboutMe-body">
         <div className="aboutMe-container-logo">{Logo()}</div>
         <div className="aboutMe-container">

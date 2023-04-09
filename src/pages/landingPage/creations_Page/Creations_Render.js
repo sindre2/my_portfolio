@@ -1,10 +1,13 @@
 import { creationsData } from "./Creations_Data";
 import { Creations } from "./Creations_Page";
-import { Creations_Styles } from "./Creations_Styles";
+import { Creations_Styles } from "../../../components/styledPages/Creations_Styles";
+import { ThemeContext } from "../../../components/context/ThemeContext";
+import { useContext } from "react";
 // import { useTranslation } from 'react-i18next';
 
 // Viderefører props inn i Creations siden slik at alle prosjekter blir skrevet ut.
 // const { t } = useTranslation();
+
 const projects = creationsData.map((project) => {
   return (
       <Creations
@@ -29,8 +32,9 @@ const projects = creationsData.map((project) => {
 });
 
 export const CreationRender = () => {
+  const visualMode = useContext(ThemeContext);
   return(
-  <Creations_Styles>
+  <Creations_Styles visualMode={visualMode.visualMode}>
     <div className="creations-body">{projects}</div>
   </Creations_Styles>
   )

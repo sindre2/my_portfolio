@@ -16,10 +16,10 @@ export const ContactMe_Page_Body = styled.div`
     justify-content: center;
     height: 400px;
     width: 400px;
-    background-color: ${(props) => props.theme.colors_light.background_one};
+    background-color: ${(props) => props.theme[props.visualMode? "colors_dark" : "colors_light"].background_one};
     border-radius: 50%;
-    color: white;
-    text-shadow: 1px 1px solid black;
+    color: ${(props) => props.theme[props.visualMode? "colors_dark" : "colors_light"].text_color};
+    text-shadow: ${(props) => props.visualMode ? "-1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black" : "0"};
     animation: render 400ms ease-in;
   }
 

@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const HomeButton = styled.a`
-  background-color: ${(props) => props.theme.colors_light.background_three};
+  background-color: ${(props) => props.theme[props.visualMode ? "colors_dark" : "colors_light"].background_three};
   font-weight: bold;
   border-radius: 15px;
-  border: 1px solid ${(props) => props.theme.colors_light.border_one};
+  border: 1px solid ${(props) => props.theme[props.visualMode ? "colors_dark" : "colors_light"].border_one};
   color: white;
 
   display: flex;
@@ -17,7 +17,6 @@ export const HomeButton = styled.a`
   height: 2rem;
   font-size: 1.25rem;
   &:hover {
-    background-color: ${(props) => props.theme.colors_light.hover_one};
     cursor: pointer;
     }
 `;
