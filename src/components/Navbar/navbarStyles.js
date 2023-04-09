@@ -176,7 +176,8 @@ export const NavHamburgerMenu = styled.input.attrs({ type: 'checkbox' })`
     &:checked {
       transition: 100ms;
       transform: rotate(90deg);
-      filter: invert(93%) sepia(66%) saturate(1906%) hue-rotate(357deg) brightness(107%) contrast(104%);
+      /* Changes the "checked" color depending on dark or light mode. Color choice is "yello" and "goldenrod". */
+      filter: ${(props) => props.visualMode? "invert(69%) sepia(31%) saturate(1151%) hue-rotate(1deg) brightness(95%) contrast(83%);" : "invert(93%) sepia(66%) saturate(1906%) hue-rotate(357deg) brightness(107%) contrast(104%)"};
     }
     &:checked + ${NavListMain} {
       display: flex;

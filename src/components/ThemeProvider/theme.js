@@ -23,7 +23,7 @@ export const theme = {
         main_icon: "purple",
         linkedin_github_icon: "cyan",
         nav_link_hover: "goldenrod", //Dark purple
-        hamburger_menu: "blue",
+        hamburger_menu: "rgb(36, 65, 115)",
         background_one: "#010038",
         background_two: "blueviolet", //Dark blue
         background_three: "goldenrod", //Bone
