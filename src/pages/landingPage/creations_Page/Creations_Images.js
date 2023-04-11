@@ -1,3 +1,4 @@
+import hms from "../../../images/hmsWebPage.png"
 import skeletor from "../../../images/skeletor.png";
 import pokedex from "../../../images/pokedex.png";
 import todo from "../../../images/todolist.png";
@@ -7,7 +8,8 @@ import colorG from "../../../images/color_Generator.png"
 import space from "../../../images/preview.png"
 import question from "../../../images/questionare.png"
 
-export const creationsImages = { 
+export const creationsImages = {
+    hms: hms, 
     skelly: skeletor,
     pokemon: pokedex,
     do: todo,

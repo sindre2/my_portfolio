@@ -13,6 +13,7 @@ export const theme = {
         border_one: "rgb(245, 245, 245)",
         hover_one: "rgb(138, 43, 226)",
         text_color: "white",
+        about_me_background_color: "rgb(26, 103, 236)", //Blue color
         creations_text_color: "black",
         creations_headline_text_color: "black",
         creations_border_bottom: "green",
@@ -32,6 +33,7 @@ export const theme = {
         border_one: "green",
         hover_one: "pink",
         text_color: "#008b8b", //Dark Cyan
+        about_me_background_color: "#8a2be2", //Dark shade of purple
         creations_text_color: "white",
         creations_headline_text_color: "#8b0000", //Dark shade of red
         creations_border_bottom: "darkgoldenrod", //Dark golden color

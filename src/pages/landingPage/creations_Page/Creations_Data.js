@@ -17,8 +17,17 @@ import { creationsImages } from "./Creations_Images";
 */
 
 export const creationsData = [
+ 
   {
     key: 0,
+    title: "CREATIONS.CREATIONS_DATA.HMS.TITLE",
+    image: creationsImages.hms,
+    alt: "Skjermbildet av nettsiden HMS sjekk",
+    github_Pages: "https://hmscheck.no/en/",
+    description: "CREATIONS.CREATIONS_DATA.HMS.DESCRIPTION",
+  },
+  {
+    key: 1,
     title: "CREATIONS.CREATIONS_DATA.SKELETOR.TITLE",
     image: creationsImages.skelly,
     alt: "Skjermbildet av nettsiden Skeletor lydbrett",
@@ -27,7 +36,7 @@ export const creationsData = [
     description: "CREATIONS.CREATIONS_DATA.SKELETOR.DESCRIPTION",
   },
   {
-    key: 1,
+    key: 2,
     title: "CREATIONS.CREATIONS_DATA.PLANETARIUM.TITLE",
     image: creationsImages.planetarium,
     alt: "Skjermbildet av nettsiden Planetarium",
@@ -37,7 +46,7 @@ export const creationsData = [
       "CREATIONS.CREATIONS_DATA.PLANETARIUM.DESCRIPTION",
   },
   {
-    key: 2,
+    key: 3,
     title: "CREATIONS.CREATIONS_DATA.MACHO.TITLE",
     image: creationsImages.do,
     alt: "Skjermbildet av nettsiden Machoman Todo-List",
@@ -46,7 +55,7 @@ export const creationsData = [
     description: 'CREATIONS.CREATIONS_DATA.MACHO.DESCRIPTION',
   },
   {
-    key: 3,
+    key: 4,
     title: "CREATIONS.CREATIONS_DATA.POKEDEX.TITLE",
     image: creationsImages.pokemon,
     alt: "Skjermbildet av nettsiden Pokedex",
@@ -55,7 +64,7 @@ export const creationsData = [
     description: "CREATIONS.CREATIONS_DATA.POKEDEX.DESCRIPTION",
   },
   {
-    key:4,
+    key: 5,
     title: "CREATIONS.CREATIONS_DATA.QUESTIONARE.TITLE",
     image: creationsImages.questionare,
     alt: "Skjermbildet av nettsiden Questionare",
@@ -64,7 +73,7 @@ export const creationsData = [
     description: "CREATIONS.CREATIONS_DATA.QUESTIONARE.DESCRIPTION"
   },
   {
-    key: 5,
+    key: 6,
     title: "CREATIONS.CREATIONS_DATA.PASSGEN.TITLE",
     image: creationsImages.password,
     alt: "Skjermbildet av nettsiden Passordgenerator",
@@ -73,7 +82,7 @@ export const creationsData = [
     description: "CREATIONS.CREATIONS_DATA.PASSGEN.DESCRIPTION",
   },
   {
-    key: 6,
+    key: 7,
     title: "CREATIONS.CREATIONS_DATA.COLORGEN.TITLE",
     image: creationsImages.color,
     alt: "Skjermbildet av nettsiden Fargegenerator",
@@ -82,7 +91,7 @@ export const creationsData = [
     description: "CREATIONS.CREATIONS_DATA.COLORGEN.DESCRIPTION",
   },
   {
-    key: 7,
+    key: 8,
     title: "CREATIONS.CREATIONS_DATA.FIGMA.TITLE",
     image: creationsImages.figmaOne,
     alt: "Skjermbildet av en nettside laget i Figma",

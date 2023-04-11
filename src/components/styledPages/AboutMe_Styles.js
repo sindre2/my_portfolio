@@ -39,7 +39,7 @@ export const AboutMe_Styles = styled.div`
     border-radius: 40px;
     height: 75%;
     max-width: 40%;
-    background-color: ${(props) => props.theme[props.visualMode? "colors_dark" : "colors_light"].background_one};
+    background-color: ${(props) => props.theme[props.visualMode? "colors_dark" : "colors_light"].about_me_background_color};
     color: ${(props) => props.theme[props.visualMode ? "colors_dark" : "colors_light"].text_color};
     text-shadow: ${(props) => props.visualMode ? "-1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black" : "0"};
     padding: 2rem;
