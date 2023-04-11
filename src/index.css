@@ -1,3 +1,7 @@
+html {
+  overflow: hidden;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -16,4 +20,16 @@ code {
 nav > a
 {
   margin-right: 10px;
+}
+
+@media screen and (max-width: 1080px) {
+  html {
+    overflow: scroll;
+  }
+}
+
+@media screen and (max-height: 630px) {
+  html {
+    overflow: scroll;
+  }
 }
