@@ -38,6 +38,8 @@ export const theme = {
         creations_headline_text_color: "#8b0000", //Dark shade of red
         creations_border_bottom: "darkgoldenrod", //Dark golden color
         background_animation_color: "Darkblue",
+        // Only "colors_dark" has a text_shadow option, for now.
+        text_shadow: "#191825", //Lighter shade of black.
     },
     fonts:
     {

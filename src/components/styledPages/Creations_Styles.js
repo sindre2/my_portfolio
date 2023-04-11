@@ -96,7 +96,7 @@ export const Creations_Styles = styled.div`
     color: ${(props) => props.theme[props.visualMode ? "colors_dark" : "colors_light"].text_color};
     background-color: ${(props) => props.theme[props.visualMode ? "colors_dark" : "colors_light"].background_three};
     border: 1px solid ${(props) => props.theme[props.visualMode ? "colors_dark" : "colors_light"].border_one};
-    text-shadow: ${(props) => props.visualMode ? "-1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black" : "0"};
+    text-shadow: ${(props) => props.visualMode ? `-1px -1px 0 ${props.theme.colors_dark.text_shadow}, 1px -1px 0 ${props.theme.colors_dark.text_shadow}, -1px 1px 0 ${props.theme.colors_dark.text_shadow}, 1px 1px 0 ${props.theme.colors_dark.text_shadow}` : "0"};
     &:hover {
       background-color: ${(props) => props.theme[props.visualMode ? "colors_dark" : "colors_light"].hover_one};
     }
@@ -112,7 +112,7 @@ export const Creations_Styles = styled.div`
     color: ${(props) => props.theme[props.visualMode ? "colors_dark" : "colors_light"].text_color};
     background-color: ${(props) => props.theme[props.visualMode ? "colors_dark" : "colors_light"].background_three};
     border: 1px solid ${(props) => props.theme[props.visualMode ? "colors_dark" : "colors_light"].border_one};
-    text-shadow: ${(props) => props.visualMode ? "-1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black" : "0"};
+    text-shadow: ${(props) => props.visualMode ? `-1px -1px 0 ${props.theme.colors_dark.text_shadow}, 1px -1px 0 ${props.theme.colors_dark.text_shadow}, -1px 1px 0 ${props.theme.colors_dark.text_shadow}, 1px 1px 0 ${props.theme.colors_dark.text_shadow}` : "0"};
     &:hover {
       background-color: ${(props) => props.theme[props.visualMode ? "colors_dark" : "colors_light"].hover_one};
     }

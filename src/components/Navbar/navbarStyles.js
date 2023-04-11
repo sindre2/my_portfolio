@@ -79,7 +79,7 @@ export const LngBtns = styled.div`
   font-weight: bold;
   background-color: ${(props) => props.theme[props.visualMode ? "colors_dark" : "colors_light"].background_three};
   color: ${(props) => props.theme[props.visualMode ? "colors_dark" : "colors_light"].text_color};
-  text-shadow: ${(props) => props.visualMode ? "-1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black" : "0"};
+  text-shadow: ${(props) => props.visualMode ? `-1px -1px 0 ${props.theme.colors_dark.text_shadow}, 1px -1px 0 ${props.theme.colors_dark.text_shadow}, -1px 1px 0 ${props.theme.colors_dark.text_shadow}, 1px 1px 0 ${props.theme.colors_dark.text_shadow}` : "0"};
   height: 25px;
   width: 70px;
 }

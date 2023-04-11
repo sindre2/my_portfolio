@@ -41,7 +41,7 @@ export const AboutMe_Styles = styled.div`
     max-width: 40%;
     background-color: ${(props) => props.theme[props.visualMode? "colors_dark" : "colors_light"].about_me_background_color};
     color: ${(props) => props.theme[props.visualMode ? "colors_dark" : "colors_light"].text_color};
-    text-shadow: ${(props) => props.visualMode ? "-1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black" : "0"};
+    text-shadow: ${(props) => props.visualMode ? `-1px -1px 0 ${props.theme.colors_dark.text_shadow}, 1px -1px 0 ${props.theme.colors_dark.text_shadow}, -1px 1px 0 ${props.theme.colors_dark.text_shadow}, 1px 1px 0 ${props.theme.colors_dark.text_shadow}` : "0"};
     padding: 2rem;
     line-height: 25px;
   }
