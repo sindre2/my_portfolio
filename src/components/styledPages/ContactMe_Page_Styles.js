@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ContactMe_Page_Body = styled.div`
   .contactMe-body
   {
-    height: 90vh;
+    height: 90ch;
     display: flex;
     justify-content: center;
     align-items: center;

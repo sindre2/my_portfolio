@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Creations_Styles = styled.div`
   .creations-body {
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     bottom: 0;
@@ -13,12 +13,12 @@ export const Creations_Styles = styled.div`
     grid-gap: 25px;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100ch;
     width: 100%;
     overflow-x: hidden;
     overflow-y: scroll;
     padding-top: 70px;
-    padding-bottom: 6rem;
+    padding-bottom: 16rem;
   }
 
   /* Creations-page container settings */
