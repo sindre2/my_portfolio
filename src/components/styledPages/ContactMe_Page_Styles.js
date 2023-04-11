@@ -3,11 +3,12 @@ import styled from "styled-components";
 export const ContactMe_Page_Body = styled.div`
   .contactMe-body
   {
-    height: 90ch;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    padding-top: 110px;
   }
   .contactMe-container {
     display: flex;
@@ -45,7 +46,7 @@ export const ContactMe_Page_Body = styled.div`
   .links > a,
   .contactMe-container {
     font-size: 0.9rem;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
   }
 
   .contactMe-container {
@@ -75,7 +76,7 @@ export const ContactMe_Page_Body = styled.div`
 
   @media screen and (max-height: 400px) {
     .contactMe-body {
-      padding: 12rem 0;
+      padding-top: 100px;
     }
   }
 `;
