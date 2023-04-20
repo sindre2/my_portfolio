@@ -97,7 +97,7 @@ export const Home_Styles = styled.div`
   /* Secondary container containing a small description on a purple background. */
   .home-container-two {
     align-self: flex-end;
-    background-color: ${(props) => props.theme[props.visualMode ? "colors_dark" : "colors_light"].background_two};
+    background-color: ${(props) => props.theme[props.visualMode ? "colors_dark" : "colors_light"].home_two_container_background_color};
     height: 300px;
     width: 300px;
     font-size: 1.1rem;
