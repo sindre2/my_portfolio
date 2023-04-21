@@ -13,6 +13,7 @@ export const theme = {
         border_one: "rgb(245, 245, 245)",
         hover_one: "rgb(138, 43, 226)",
         text_color: "white",
+        text_color_two: "white",
         home_two_container_background_color: "rgb(26, 103, 236)", //Blue color
         about_me_background_color: "rgb(26, 103, 236)", //Blue color
         creations_text_color: "black",
@@ -34,8 +35,9 @@ export const theme = {
         border_one: "green",
         hover_one: "pink",
         text_color: "#008b8b", //Dark Cyan
-        home_two_container_background_color: "#010038", //Dark shade of blue.
-        about_me_background_color: "#010038", //Dark shade of blue.
+        text_color_two: "#112A46",
+        home_two_container_background_color: "#ACC8E5", //Light shade of gray-blue.
+        about_me_background_color: "#ACC8E5", //Dark shade of blue.
         creations_text_color: "white",
         creations_headline_text_color: "#8b0000", //Dark shade of red
         creations_border_bottom: "darkgoldenrod", //Dark golden color

@@ -29,14 +29,19 @@ export const Home_Styles = styled.div`
 
   .home-container,
   .home-container-two {
-    color: ${(props) => props.theme[props.visualMode ? "colors_dark" : "colors_light"].text_color};
-    text-shadow: ${(props) => props.visualMode ? `-1px -1px 0 ${props.theme.colors_dark.text_shadow}, 1px -1px 0 ${props.theme.colors_dark.text_shadow}, -1px 1px 0 ${props.theme.colors_dark.text_shadow}, 1px 1px 0 ${props.theme.colors_dark.text_shadow}` : "0"};
     border-radius: 50%;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .home-container{
+    color: ${(props) => props.theme[props.visualMode ? "colors_dark" : "colors_light"].text_color};
+    text-shadow: ${(props) => props.visualMode ? `-1px -1px 0 ${props.theme.colors_dark.text_shadow}, 1px -1px 0 ${props.theme.colors_dark.text_shadow}, -1px 1px 0 ${props.theme.colors_dark.text_shadow}, 1px 1px 0 ${props.theme.colors_dark.text_shadow}` : "0"};
+  }
+  .home-container-two{
+    color: ${(props) => props.theme[props.visualMode ? "colors_dark" : "colors_light"].text_color_two};
   }
 
   /* The main container containing buttons and primary heading with a blue background. */
